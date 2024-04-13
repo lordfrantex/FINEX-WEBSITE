@@ -24,6 +24,7 @@ export default function Home() {
                 <div className="">
                   <Image src="/pics/about_1_3.png" className="about-us-image d-block m-auto" height={400} width={400} alt="" />
 
+
                 </div>
                 {/* <div className="about-info">
                   <h3>Dr. Peter Johnson</h3>
