@@ -1,0 +1,13 @@
+.text-title{
+    position: relative;
+    // margin-bottom: 20px;
+    &::after{
+        content: ' ';
+        position: absolute;
+        width: 200px;
+        height: 4px;
+        background-color: red;
+        bottom: -5px;
+        left: 0;
+    }
+}

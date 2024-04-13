@@ -1,0 +1,17 @@
+
+$primary-colors:#E62E2D;
+$light-color:#F2ECFF;
+$secondary-colors:#6369DC;
+$accent-color:#654D8E;
+$dark-color:#2F4858;
+.footer {
+    background-color: $dark-color;
+    color: #ffffff;
+    padding: 30px 0;
+  }
+  .footer a {
+    color: #ffffff;
+  }
+  .footer a:hover {
+    color: #cccccc;
+  }

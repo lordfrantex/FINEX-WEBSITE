@@ -1,0 +1,88 @@
+
+$primary-colors:#E62E2D;
+$light-color:#F2ECFF;
+$secondary-colors:#6369DC;
+$accent-color:#654D8E;
+$dark-color:#2F4858;
+
+  
+ .hero-cover {
+    background: $secondary-colors url(/pics/herobg.png);
+    padding: 20px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ .appointment-arrow{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    border-color: transparent;
+    .arrow{
+
+        transform: rotate(-20deg);
+        line-height: 30px;
+        margin-left: 4.5px;
+    }
+ }
+  
+ .hero-section{
+  .image{
+    .hero-image{
+display: block;
+margin: auto;
+      @media (max-width:530px){
+        &{
+          width: 300px;
+          height: 300px;
+         
+
+        }
+      }
+    }
+    .span1 img{
+      position: absolute;
+      top: 45%;
+      right: 20px;
+      @media (max-width:530px){
+        &{
+          width: 50px;
+          height: 50px;
+      right: 0px;
+
+         
+
+        }
+      }
+    }
+    .span2 img{
+      position: absolute;
+      top: 0%;
+      left: -40px;
+      z-index: -1;
+      @media (max-width:530px){
+        &{
+          width: 300px;
+          height: 200px;
+         
+
+        }
+      }
+    }
+  }
+  button.appointment{
+    border: 3px solid $light-color;
+    display: flex;
+    background-color: $primary-colors;
+
+    align-items: center;
+    span{
+      // background-color: $primary-colors;
+      margin-left: 5px;
+      
+    }
+  }
+ }
