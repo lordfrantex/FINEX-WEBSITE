@@ -38,7 +38,7 @@ export default function Hero() {
     ]
     const mapItems = items.map((item, i) => {
         return (
-            <SwiperSlide>
+            <SwiperSlide key={i}>
                 <div className="container ">
                     <div className="row g-4 align-items-center hero-section">
                         <div className="col-12 col-md-6">

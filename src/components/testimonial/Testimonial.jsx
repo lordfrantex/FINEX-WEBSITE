@@ -64,6 +64,7 @@ const Testimonial = () => {
 
     ]
     const mapTestimonies = testimony.map((testimony, index) => {
+
         return (
             <SwiperSlide key={index}>
                 <div className="testifiers">
