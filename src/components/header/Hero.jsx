@@ -93,7 +93,7 @@ export default function Hero() {
                         <div className="col-12 col-md-6">
                             <div className="">
                                 <h1 className="text-white fs-1 fw-bold ">We Analyze Patient Health Record For Informed Descision.</h1>
-                                <p className="text-white ">At Finex, we read, compile, and extract clients medical report and analyze them for making desicions.</p>
+                                <p className="text-white ">At Finex, we incorporate the use of various analytical tools to  read, compile, extract, and visualize clients historic medical report, for making efficient health desicions.</p>
                                 <div>
                                     <button className="text-center text-md-left d-inline-block btn text-white appointment rounded-pill px-3 p-2">Book an Appointment <span className="appointment-arrow "><FaArrowRight className="text-white arrow" /></span></button>
                                 </div>

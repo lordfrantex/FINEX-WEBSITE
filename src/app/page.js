@@ -3,7 +3,7 @@ import Navbar from "@/components/header/Navbar";
 import Hero from "@/components/header/Hero";
 import Image from 'next/image';
 
-import { FaChartColumn, FaHeartPulse } from "react-icons/fa6";
+import { FaChartColumn, FaHeartPulse, FaWhatsapp } from "react-icons/fa6";
 import TextTitle from "@/components/text-title/TextTitle";
 import { Yellowtail } from "next/font/google";
 import Footer from "@/components/footer/Footer";
@@ -40,18 +40,18 @@ export default function Home() {
                   {/* <TextTitle text='About Us' /> */}
                   <h2 className={`${yellowtail.className} fw-bold about-us`}>About Us</h2>
                 </div>
-                <h3 className="fs-1 fw-bold">Finex Health Care Services and Solution</h3>
-
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos optio quod dolorem illum porro laudantium aspernatur facilis iure, architecto molestias, sequi quia neque nihil laboriosam natus omnis nostrum, labore alias. Our core values include:</p>
+                <h3 className="fs-1 fw-bold">Finex Health Care Services and Informatics</h3>
+                <p>At Finex healthcare analytics and informatics, we believe in seamless turning data to action. We engage, find, analyze, and interprete patient's current and historic data using digital technologies. We gather, examine patients environment, predict and visualize possible outcomes that affect them.</p>
+                <p> We are a new and developing wellness, market research, and strategy counsulting company with knowledge to build the skills required to navigate growing level of healthcare data and liaise with healthcare facilities to solve their staffing needs. Here are some of the benefits of our healthcare analysis: </p>
                 <div className="d-sm-flex d-block gap-5">
 
                   <ul>
-                    <li><span className="me-1"><FaHeartPulse /></span>Professionalism</li>
-                    <li><span className="me-1"><FaHeartPulse /></span>Customer First Approach</li>
-                    <li><span className="me-1"><FaHeartPulse /></span>Pocket Friendly</li>
+                    <li><span className="me-1"><FaHeartPulse /></span>Patience satisfaction</li>
+                    <li><span className="me-1"><FaHeartPulse /></span>Staff Optimization</li>
+                    <li><span className="me-1"><FaHeartPulse /></span>Healthcare Data Management</li>
                   </ul>
                   <ul>
-                    <li><span className="me-1"><FaHeartPulse /></span>Consultancy</li>
+                    <li><span className="me-1"><FaHeartPulse /></span>Cost of Care and Management</li>
                     <li><span className="me-1"><FaHeartPulse /></span>Quality Staff</li>
                     <li><span className="me-1"><FaHeartPulse /></span>Client Specialization</li>
                   </ul>
@@ -133,36 +133,44 @@ export default function Home() {
           <div className="row align-items-center py-5">
             <div className="col-xl-6">
               <div className="">
-                <div className="title-area">
+                <div className="title-area mb-4">
                   <h2 className={`${yellowtail.className} fw-bold title-color  `}>Why Choose Us?</h2>
 
-                  <h2 className="fw-bold">We Are Always Open For Your Services</h2>
+                  <h2 className="fw-bold">Here Is How We Improve Patients Healthcare Analysis</h2>
                 </div>
                 <div className="choose-feature-wrap">
                   <div className="choose-features d-flex gap-4 ">
                     <div className="">
-                      <div className="box-number">01</div>
+                      <div className="box-number">
+                        <Image src='/pics/7319389.png' width={40} height={40} alt="" />
+                      </div>
                     </div>
                     <div className="media-body">
-                      <h3>Compassionate Staff</h3>
+                      <h3>Support</h3>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus similique corporis delectus, debitis illum consectetur sapiente vel mollitia veniam aperiam.</p>
                     </div>
                   </div>
                   <div className="choose-features d-flex gap-4 ">
                     <div className="">
-                      <div className="box-number">01</div>
+                      <div className="box-number">
+                        <Image src='/pics/chart6.png' width={40} height={40} alt="" />
+
+                      </div>
                     </div>
                     <div className="media-body">
-                      <h3>Compassionate Staff</h3>
+                      <h3>Analyse</h3>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus similique corporis delectus, debitis illum consectetur sapiente vel mollitia veniam aperiam.</p>
                     </div>
                   </div>
                   <div className="choose-features d-flex gap-4 ">
                     <div className="">
-                      <div className="box-number">01</div>
+                      <div className="box-number">
+                        <Image src='/pics/4435682.png' width={35} height={40} alt="" />
+
+                      </div>
                     </div>
                     <div className="media-body-non">
-                      <h3>Compassionate Staff</h3>
+                      <h3> Access</h3>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus similique corporis delectus, debitis illum consectetur sapiente vel mollitia veniam aperiam.</p>
                     </div>
                   </div>
@@ -171,7 +179,7 @@ export default function Home() {
             </div>
             <div className="col-xl-6">
               <div className="">
-                <Image src='/pics/why_1.jpg' className='rounded-4 m-auto d-block' height={550} width={550} alt="" />
+                <Image src='/pics/why_1.jpg' className='why-us-img rounded-4 m-auto d-block' height={550} width={550} alt="" />
 
               </div>
             </div>
@@ -297,9 +305,99 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="team ">
+        <div className="container ">
+          <div className="team-heading text-center">
+            <h3 className={`${yellowtail.className} fs-2 fw-bold`}>Our Team</h3>
+            <h2 className="fw-bold ">Meet Our professional Team</h2>
+          </div>
+          <div className="row g-4">
+            <div className="col-md-3 position-relative">
+              <div className="text-center team-card bg-white rounded-4 p-3">
+                <Image src='/pics/team-img1.jpg' alt="" width={200} height={200} className="rounded-pill" />
+                <p>Mr. Thomson Mary</p>
+                <p>Doctor</p>
+              </div>
+
+            </div>
+            <div className="col-md-3 ">
+              <div className="text-center team-card bg-white rounded-4 p-3">
+                <Image src='/pics/team-img2.jpg' alt="" width={200} height={200} className="rounded-pill" />
+                <p>Mr. Thomson Mary</p>
+                <p>Doctor</p>
+              </div>
+
+            </div>
+            <div className="col-md-3 ">
+              <div className="text-center team-card bg-white rounded-4 p-3">
+                <Image src='/pics/team-img3.jpg' alt="" width={200} height={200} className="rounded-pill" />
+                <p>Mr. Thomson Mary</p>
+                <p>Doctor</p>
+              </div>
+
+            </div>
+            <div className="col-md-3 ">
+              <div className="text-center team-card bg-white rounded-4 p-3">
+                <Image src='/pics/team-img4.jpg' alt="" width={200} height={200} className="rounded-pill" />
+                <p>Mr. Thomson Mary</p>
+                <p>Doctor</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      {/* get in touch */}
+      <section className="contact-us">
+        <div className="container">
+          <form>
+            <h2 className={`${yellowtail.className} fw-bold text-center`}>Contact Us</h2>
+
+            <div className="row">
+              <div className="col-md-6">
+                <div className="form-group">
+                  <label htmlFor="name">Name:</label>
+                  <input type="text" className="form-control" id="name" placeholder="Enter your name" />
+                </div>
+              </div>
+              <div className="col-md-6">
+
+                <div className="form-group">
+                  <label htmlFor="email">Email:</label>
+                  <input type="email" className="form-control" id="email" placeholder="Enter your email" />
+                </div>
+              </div>
+            </div>
+            <div className="row my-4">
+              <div className="col-md-6">
+                <div className="form-group">
+                  <label htmlFor="number">Phone Number:</label>
+                  <input type="text" className="form-control" id="number" placeholder="Enter your number" />
+                </div>
+              </div>
+              <div className="col-md-6">
+
+                <div className="form-group">
+                  <label htmlFor="address">Address:</label>
+                  <input type="text" className="form-control" id="address" placeholder="Enter your Address" />
+                </div>
+              </div>
+            </div>
+            <div className="form-group">
+              <label htmlFor="message">Message:</label>
+              <textarea className="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" className=" w-100 my-3">Submit</button>
+          </form>
+        </div>
+      </section>
+
       <Testimonial />
       <Footer />
-
+      <Image src='/pics/whatsapp.png' className="position-fixed bottom-0 end-0 me-2" width={50} height={50} alt="" />
     </main>
   );
 }
