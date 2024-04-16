@@ -8,6 +8,7 @@ import TextTitle from "@/components/text-title/TextTitle";
 import { Yellowtail } from "next/font/google";
 import Footer from "@/components/footer/Footer";
 import Testimonial from "@/components/testimonial/Testimonial";
+import Contact from "@/components/contact/Contact";
 const yellowtail = Yellowtail({ subsets: ['latin'], weight: '400', display: 'swap' })
 
 export default function Home() {
@@ -185,45 +186,45 @@ export default function Home() {
           <div className="row g-5 align-items-center py-5">
             <div className="col-12 col-md-6">
               <div className="">
-                <div class="accordion" id="accordionExample">
+                <div className="accordion" id="accordionExample">
                   <div className="d-flex gap-1 align-items-center my-3">
                     <Image src='/pics/think.png' height={50} width={50} alt="" />
 
                     <h3 className={`fw-bold text-white`}>Frequently Asked Questions</h3>
                   </div>
 
-                  <div class="accordion-item ">
-                    <h2 class="accordion-header" id="headingOne">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <div className="accordion-item ">
+                    <h2 className="accordion-header" id="headingOne">
+                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         Accordion Item #1
                       </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
+                    <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div className="accordion-body">
                         <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingTwo">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         Accordion Item #2
                       </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
+                    <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div className="accordion-body">
                         <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingThree">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Accordion Item #3
                       </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
+                    <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div className="accordion-body">
                         <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                       </div>
                     </div>
@@ -233,7 +234,7 @@ export default function Home() {
             </div>
             <div className="col-12 col-md-6 ">
               <div className="">
-                <Image src='/pics/nurse.png' height={600} width={500} alt="" />
+                <Image src='/pics/nurse.png' className="faq_image" height={600} width={500} alt="" />
               </div>
             </div>
           </div>
@@ -342,48 +343,7 @@ export default function Home() {
 
       {/* get in touch */}
       <section className="contact-us" id="contact">
-        <div className="container">
-          <form>
-            <h2 className={`${yellowtail.className} fw-bold text-center head-text`}>Contact Us</h2>
-
-            <div className="row">
-              <div className="col-md-6">
-                <div className="form-group">
-                  <label htmlFor="name">Name:</label>
-                  <input type="text" className="form-control" id="name" placeholder="Enter your name" />
-                </div>
-              </div>
-              <div className="col-md-6">
-
-                <div className="form-group">
-                  <label htmlFor="email">Email:</label>
-                  <input type="email" className="form-control" id="email" placeholder="Enter your email" />
-                </div>
-              </div>
-            </div>
-            <div className="row my-4">
-              <div className="col-md-6">
-                <div className="form-group">
-                  <label htmlFor="number">Phone Number:</label>
-                  <input type="text" className="form-control" id="number" placeholder="Enter your number" />
-                </div>
-
-              </div>
-              <div className="col-md-6">
-
-                <div className="form-group">
-                  <label htmlFor="address">Address:</label>
-                  <input type="text" className="form-control" id="address" placeholder="Enter your Address" />
-                </div>
-              </div>
-            </div>
-            <div className="form-group">
-              <label htmlFor="message">Message:</label>
-              <textarea className="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
-            </div>
-            <button type="submit" className=" w-100 my-3">Submit</button>
-          </form>
-        </div>
+        <Contact />
       </section>
 
       <Testimonial />

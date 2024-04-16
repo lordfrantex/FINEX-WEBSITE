@@ -40,6 +40,10 @@ section.about{
         color: $primary-colors;
     }
     .about-us-image{
+        @media (max-width:400px) {
+            width: 100%;
+            height: 250px;
+        }
         
     }
 }
@@ -49,6 +53,13 @@ section.faq{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+
+    .faq_image{
+        @media (max-width:500px) {
+            width: 100%;
+            height: 350px;
+        }
+    }
 }
 section.services{
     .service-item{
@@ -73,7 +84,7 @@ section.choose-us{
         z-index: 1;
         &::before{
             content: '';
-            height: 70%;
+            height: 60%;
             width: 1px;
             background-color: $primary-colors;
             position: absolute;
@@ -115,6 +126,7 @@ section.choose-us{
             &{
 
                 width: 100%;
+                height: 350px;
             }
             
         }
