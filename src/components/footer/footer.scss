@@ -18,6 +18,7 @@ $dark-color:#2F4858;
 .whatsapp-fixed{
   animation: move .5s infinite alternate;
   cursor: pointer;
+  z-index: 100;
 }
 
 @keyframes move {

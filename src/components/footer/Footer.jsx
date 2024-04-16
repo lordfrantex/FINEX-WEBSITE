@@ -7,10 +7,10 @@ import { FaFacebook, FaInstagram, FaLocationDot, FaLocationPin, FaMessage, FaPho
 const Footer = () => {
     return (
         <div>
-            <footer class="footer">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-4">
+            <footer className="footer">
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-md-4">
                             <Image src="/pics/logo.png" width={120} height={100} className='' alt="" />
                             <p>At Finex healthcare analytics and informatics, our aim is to enhance the efficacy of the process of healthcare delivery.</p>
                             <div className='social-links'>
@@ -23,9 +23,9 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div className="col-md-4">
                             <h5>Quick Links</h5>
-                            <ul class="list-unstyled">
+                            <ul className="list-unstyled">
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#about-us">About</a></li>
                                 <li><a href="#services">Services</a></li>
@@ -33,7 +33,7 @@ const Footer = () => {
                                 <li><a href="#team">Team</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-4">
+                        <div className="col-md-4">
                             <h5>Contact Us</h5>
                             <p><FaLocationDot /> 123 Street, City, Country</p>
                             <p><IoIosMail /> info@example.com</p>
