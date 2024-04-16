@@ -43,7 +43,7 @@ section.about{
         
     }
 }
-section.process{
+section.faq{
     background: url(../../public/pics/faq_bg_1.jpg);
     margin-block: 50px;
     background-repeat: no-repeat;
@@ -53,6 +53,10 @@ section.process{
 section.services{
     .service-item{
         transition: all .3s ease-in-out;
+        cursor: pointer;
+        h3{
+            color: $secondary-colors;
+        }
         &:hover{
             scale: 1.08;
             border: 1px solid $secondary-colors !important;
@@ -129,6 +133,29 @@ section.team{
         color: $primary-colors;
     }
    
+    .team-card{
+        position: relative;
+        &::before{
+            width: 30px;
+            height: 30px;
+            background-color: red;
+            content: '';
+            z-index: -1;
+            top: -4px;
+            left: -4px;
+            position: absolute;
+        }
+        &::after{
+            width: 30px;
+            height: 30px;
+            background-color: $primary-colors;
+            content: '';
+            z-index: -1;
+            bottom: -4px;
+            right: -4px;
+            position: absolute;
+        }
+    }
     
 }
 section.contact-us{
@@ -141,6 +168,9 @@ section.contact-us{
     cursor: pointer;
 
     form{
+        h2.head-text{
+            color: $primary-colors;
+        }
         button{
             background-color: $secondary-colors;
             padding: 10px;

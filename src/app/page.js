@@ -2,34 +2,30 @@ import styles from "./page.scss";
 import Navbar from "@/components/header/Navbar";
 import Hero from "@/components/header/Hero";
 import Image from 'next/image';
-
+import Link from 'next/link'
 import { FaChartColumn, FaHeartPulse, FaWhatsapp } from "react-icons/fa6";
 import TextTitle from "@/components/text-title/TextTitle";
 import { Yellowtail } from "next/font/google";
 import Footer from "@/components/footer/Footer";
 import Testimonial from "@/components/testimonial/Testimonial";
-const yellowtail = Yellowtail({ subsets: ['latin'], weight: '400' })
+const yellowtail = Yellowtail({ subsets: ['latin'], weight: '400', display: 'swap' })
 
 export default function Home() {
   return (
     <main className=''>
       <Navbar />
       <Hero />
+
       {/* About us Section */}
-      <section className="about">
+      <section className="about" id="about-us">
         <div className="container py-5">
           <div className="row align-items-center">
             <div className="col-12 col-md-6">
               <div className="image">
                 <div className="">
                   <Image src="/pics/about_1_3.png" className="about-us-image d-block m-auto" height={400} width={400} alt="" />
-
-
                 </div>
-                {/* <div className="about-info">
-                  <h3>Dr. Peter Johnson</h3>
-                  <p>Proficinet in delievery</p>
-                </div> */}
+
               </div>
             </div>
             <div className="col-12 col-md-6">
@@ -37,7 +33,6 @@ export default function Home() {
                 <div className="d-flex align-items-center gap-4 my-3">
 
                   <Image src='/pics/about.png' height={70} width={70} alt="" />
-                  {/* <TextTitle text='About Us' /> */}
                   <h2 className={`${yellowtail.className} fw-bold about-us`}>About Us</h2>
                 </div>
                 <h3 className="fs-1 fw-bold">Finex Health Care Services and Informatics</h3>
@@ -48,10 +43,10 @@ export default function Home() {
                   <ul>
                     <li><span className="me-1"><FaHeartPulse /></span>Patience satisfaction</li>
                     <li><span className="me-1"><FaHeartPulse /></span>Staff Optimization</li>
-                    <li><span className="me-1"><FaHeartPulse /></span>Healthcare Data Management</li>
+                    <li><span className="me-1"><FaHeartPulse /></span>Data Management</li>
                   </ul>
                   <ul>
-                    <li><span className="me-1"><FaHeartPulse /></span>Cost of Care and Management</li>
+                    <li><span className="me-1"><FaHeartPulse /></span>Care and Management</li>
                     <li><span className="me-1"><FaHeartPulse /></span>Quality Staff</li>
                     <li><span className="me-1"><FaHeartPulse /></span>Client Specialization</li>
                   </ul>
@@ -66,7 +61,7 @@ export default function Home() {
 
 
       {/* Our Services */}
-      <section className="services">
+      <section className="services" id="services">
         <div className="container  py-5 my-5">
           <h2 className={`${yellowtail.className} fw-bold title-color text-center`}>Our Services</h2>
           <h2 className="text-center fs-1">Our Finex Specialties Technical Service</h2>
@@ -75,10 +70,9 @@ export default function Home() {
               <div className="bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-5 align-items-center">
                 <Image src="/pics/chart4.png" height={70} width={70} alt="" />
 
-                <h3 className="m-0 fs-4 text-center">Patient Care Analytics</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex velit nihil necessitatibus natus laudantium rem voluptates? Minima minus, quo voluptatem ipsa vitae voluptate nobis quibusdam, quidem perspiciatis suscipit quisquam doloremque.</p>
+                <h3 className="m-0 fs-4 fw-bold text-center">Patient Care Analytics</h3>
+                <p>We partner and support healthcare facilities and organizations to deliver better quality care to client's residents. Through careful analysis, we can identify areas for improvement, enhance patient outcomes, and optimize resource utilization.</p>
                 {/* <button className="m-0 btn border rounded-pill">Read More</button> */}
-
               </div>
             </div>
 
@@ -87,9 +81,8 @@ export default function Home() {
 
                 <Image src="/pics/trained.png" height={70} width={70} alt="" />
 
-                <h3 className="m-0 fs-4 text-center">Healthcare Staffing and Planning</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex velit nihil necessitatibus natus laudantium rem voluptates? Minima minus, quo voluptatem ipsa vitae voluptate nobis quibusdam, quidem perspiciatis suscipit quisquam doloremque.</p>
-
+                <h3 className="m-0 fs-4 text-center fw-bold">Healthcare Staffing and Planning</h3>
+                <p>We recruit qualified and licensed healthcare professionals for our clients. These professionals are qualified by virtue of their education, training, licensure/regulation and perform professional service within their scope of practice</p>
                 {/* <button className="m-0 btn border rounded-pill">Read More</button> */}
 
               </div>
@@ -99,9 +92,8 @@ export default function Home() {
 
                 <Image src="/pics/visualization.png" height={70} width={70} alt="" />
 
-                <h3 className="m-0 fs-4 text-center">Visualization of Health Data</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex velit nihil necessitatibus natus laudantium rem voluptates? Minima minus, quo voluptatem ipsa vitae voluptate nobis quibusdam, quidem perspiciatis suscipit quisquam doloremque.</p>
-
+                <h3 className="m-0 fs-4 text-center fw-bold">Visualization of Health Data</h3>
+                <p>We use analytical and visualization tools to analyze patients raw data generated from various sources, represent them using visual graphics like charts, plots, dashboard, infographics and tables, then draw conclusions based on statistics. </p>
                 {/* <button className="m-0 btn border rounded-pill">Read More</button> */}
 
               </div>
@@ -111,9 +103,8 @@ export default function Home() {
 
                 <Image src="/pics/sports.png" height={70} width={70} alt="" />
 
-                <h3 className="m-0 fs-4 text-center">Sports Promotion and Engagement</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex velit nihil necessitatibus natus laudantium rem voluptates? Minima minus, quo voluptatem ipsa vitae voluptate nobis quibusdam, quidem perspiciatis suscipit quisquam doloremque.</p>
-
+                <h3 className="m-0 fs-4 text-center fw-bold">Sports Promotion and Engagement</h3>
+                <p>At Finex, we are uniquely positioned to also engage our patients in sports activities and also enhance their overall fitness in sports experience. We employ personalized strategies to tailor personalized services to the specific interests of our clients.</p>
                 {/* <button className="m-0 btn border rounded-pill">Read More</button> */}
 
               </div>
@@ -146,8 +137,8 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="media-body">
-                      <h3>Support</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus similique corporis delectus, debitis illum consectetur sapiente vel mollitia veniam aperiam.</p>
+                      <h3 className="fw-bold">Support</h3>
+                      <p>We relate with clients to support their organizational daily needs and goals.</p>
                     </div>
                   </div>
                   <div className="choose-features d-flex gap-4 ">
@@ -158,8 +149,8 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="media-body">
-                      <h3>Analyse</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus similique corporis delectus, debitis illum consectetur sapiente vel mollitia veniam aperiam.</p>
+                      <h3 className="fw-bold">Analyse</h3>
+                      <p>We interpret and transform complex data, and create visualization for ease of understanding.</p>
                     </div>
                   </div>
                   <div className="choose-features d-flex gap-4 ">
@@ -170,8 +161,8 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="media-body-non">
-                      <h3> Access</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus similique corporis delectus, debitis illum consectetur sapiente vel mollitia veniam aperiam.</p>
+                      <h3 className="fw-bold"> Access</h3>
+                      <p>We create access to client's system and make data driven decisions using clients historical and current data</p>
                     </div>
                   </div>
                 </div>
@@ -187,8 +178,9 @@ export default function Home() {
         </div>
       </section>
 
+
       {/* FAQ */}
-      <section className="process">
+      <section className="faq" id="faq">
         <div className="container  my-0">
           <div className="row g-5 align-items-center py-5">
             <div className="col-12 col-md-6">
@@ -249,7 +241,7 @@ export default function Home() {
       </section>
 
       {/* Work Process */}
-      <section className="processs">
+      <section className="process">
         <div className="container my-5 ">
           <h2 className={`${yellowtail.className} fw-bold title-color text-center `}>Work Process</h2>
 
@@ -299,14 +291,12 @@ export default function Home() {
                 <p>The first step in our process is to welcome our patients and ensure they have a experience.</p>
               </div>
             </div>
-
-
-
           </div>
         </div>
       </section>
 
-      <section className="team ">
+      {/* Team Section */}
+      <section className="team" id="team">
         <div className="container ">
           <div className="team-heading text-center">
             <h3 className={`${yellowtail.className} fs-2 fw-bold`}>Our Team</h3>
@@ -351,10 +341,10 @@ export default function Home() {
 
 
       {/* get in touch */}
-      <section className="contact-us">
+      <section className="contact-us" id="contact">
         <div className="container">
           <form>
-            <h2 className={`${yellowtail.className} fw-bold text-center`}>Contact Us</h2>
+            <h2 className={`${yellowtail.className} fw-bold text-center head-text`}>Contact Us</h2>
 
             <div className="row">
               <div className="col-md-6">
@@ -377,6 +367,7 @@ export default function Home() {
                   <label htmlFor="number">Phone Number:</label>
                   <input type="text" className="form-control" id="number" placeholder="Enter your number" />
                 </div>
+
               </div>
               <div className="col-md-6">
 
@@ -397,7 +388,6 @@ export default function Home() {
 
       <Testimonial />
       <Footer />
-      <Image src='/pics/whatsapp.png' className="position-fixed bottom-0 end-0 me-2" width={50} height={50} alt="" />
     </main>
   );
 }

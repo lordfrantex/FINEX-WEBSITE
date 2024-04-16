@@ -74,10 +74,10 @@ const Testimonial = () => {
                         <FaQuoteLeft />
                     </span>
 
-                    <div className="image">
+                    {/* <div className="image">
                         <Image src={testimony.img} alt="" fill />
 
-                    </div>
+                    </div> */}
                     <div className="texts">
                         <div className="stars">
                             <FaStar />
@@ -90,7 +90,7 @@ const Testimonial = () => {
                         <p>{testimony.testimony}</p>
                         <div className="name">
                             <span>{testimony.name}</span>
-                            <span>{testimony.position}</span>
+                            {/* <span>{testimony.position}</span> */}
                         </div>
                     </div>
                 </div>

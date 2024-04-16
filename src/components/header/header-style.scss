@@ -29,9 +29,7 @@ $dark-color:#2F4858;
     border-color: transparent;
     .arrow{
 
-        transform: rotate(-20deg);
-        line-height: 30px;
-        margin-left: 4.5px;
+        transform: rotate(-45deg);
     }
  }
   
@@ -83,12 +81,35 @@ margin: auto;
     border: 3px solid $light-color;
     display: flex;
     background-color: $primary-colors;
-
     align-items: center;
+    transition: all ease-in-out .2s;
     span{
-      // background-color: $primary-colors;
       margin-left: 5px;
+      border: 3px solid white;
       
+    }
+    &:hover{
+      transform: translateY(-8px);
     }
   }
  }
+
+ .nav-item{
+  
+
+  position: relative;
+  &::after{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: $primary-colors;
+    transition: .3s all ease-in-out;
+  }
+  &:hover::after{
+width: 100%;
+  }
+ }
+

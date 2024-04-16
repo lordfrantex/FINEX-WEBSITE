@@ -5,7 +5,7 @@ $secondary-colors:#6369DC;
 $accent-color:#654D8E;
 $dark-color:#2F4858;
 .footer {
-    background-color: $dark-color;
+    background-color: $secondary-colors;
     color: #ffffff;
     padding: 30px 0;
   }
@@ -15,3 +15,17 @@ $dark-color:#2F4858;
   .footer a:hover {
     color: #cccccc;
   }
+.whatsapp-fixed{
+  animation: move .5s infinite alternate;
+  cursor: pointer;
+}
+
+@keyframes move {
+  0% {
+   scale: 1; /* Starting position */
+  }
+  100% {
+   scale: 1.15; /* Starting position */
+
+  }
+}
