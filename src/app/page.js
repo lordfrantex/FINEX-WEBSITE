@@ -65,14 +65,16 @@ export default function Home() {
       <section className="services" id="services">
         <div className="container  py-5 my-5">
           <h2 className={`${yellowtail.className} fw-bold title-color text-center`}>Our Services</h2>
-          <h2 className="text-center fs-1">Our Finex Specialties Technical Service</h2>
+          {/* <h2 className="text-center fs-1">Finex Specialties Technical Service</h2> */}
+          <h2 className="text-center fs-1">Finex Service</h2>
           <div className="row g-3 mt-4">
             <div className="col-12 col-md-3 ">
               <div className="bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-5 align-items-center">
                 <Image src="/pics/chart4.png" height={70} width={70} alt="" />
 
                 <h3 className="m-0 fs-4 fw-bold text-center">Patient Care Analytics</h3>
-                <p>We partner and support healthcare facilities and organizations to deliver better quality care to client's residents. Through careful analysis, we can identify areas for improvement, enhance patient outcomes, and optimize resource utilization.</p>
+                {/* <p>We partner and support healthcare facilities and organizations to deliver better quality care to client's residents. Through careful analysis, we can identify areas for improvement, enhance patient outcomes, and optimize resource utilization. </p> */}
+                <p>We partner and support healthcare facilities and organizations to deliver better quality care to client's residents.</p>
                 {/* <button className="m-0 btn border rounded-pill">Read More</button> */}
               </div>
             </div>
@@ -83,7 +85,7 @@ export default function Home() {
                 <Image src="/pics/trained.png" height={70} width={70} alt="" />
 
                 <h3 className="m-0 fs-4 text-center fw-bold">Healthcare Staffing and Planning</h3>
-                <p>We recruit qualified and licensed healthcare professionals for our clients. These professionals are qualified by virtue of their education, training, licensure/regulation and perform professional service within their scope of practice</p>
+                <p>We recruit qualified and licensed healthcare professionals for our clients. These professionals are qualified by virtue of their education, training, licensure/regulation and perform professional service within their scope of practice.</p>
                 {/* <button className="m-0 btn border rounded-pill">Read More</button> */}
 
               </div>
@@ -94,7 +96,8 @@ export default function Home() {
                 <Image src="/pics/visualization.png" height={70} width={70} alt="" />
 
                 <h3 className="m-0 fs-4 text-center fw-bold">Visualization of Health Data</h3>
-                <p>We use analytical and visualization tools to analyze patients raw data generated from various sources, represent them using visual graphics like charts, plots, dashboard, infographics and tables, then draw conclusions based on statistics. </p>
+                <p>Healthcare data visualization is the transformation of patients/residents raw data into visuals though the use of simple graphic, such as tables, charts, plots, dashboards, info graphics. It displays information, communicate difficult data connections and data-driven insights in a manner that is easy to understand. We also apply simple statistical analysis to draw conclusion.</p>
+                {/* <p>We use analytical and visualization tools to analyze patients raw data generated from various sources, represent them using visual graphics like charts, plots, dashboard, infographics and tables, then draw conclusions based on statistics. </p> */}
                 {/* <button className="m-0 btn border rounded-pill">Read More</button> */}
 
               </div>
@@ -105,7 +108,8 @@ export default function Home() {
                 <Image src="/pics/sports.png" height={70} width={70} alt="" />
 
                 <h3 className="m-0 fs-4 text-center fw-bold">Sports Promotion and Engagement</h3>
-                <p>At Finex, we are uniquely positioned to also engage our patients in sports activities and also enhance their overall fitness in sports experience. We employ personalized strategies to tailor personalized services to the specific interests of our clients.</p>
+                <p>We encourage physical exercises and wellness through active participation and promotion of sporting activities. We optimise and utilize different tools, strategies and resources to promote a product that will generate additional demand. To achieve this, we identify our potential customers, decide on promoting budget, and select the product to promote. We also identify, partner and affilate with non-governmental organization(NGO) to sponsor and facilitate sporting engagements to enable the general public derive maximum benefits. </p>
+                {/* <p>At Finex, we are uniquely positioned to also engage our patients in sports activities and also enhance their overall fitness in sports experience. We employ personalized strategies to tailor personalized services to the specific interests of our clients.</p> */}
                 {/* <button className="m-0 btn border rounded-pill">Read More</button> */}
 
               </div>
@@ -126,7 +130,7 @@ export default function Home() {
             <div className="col-xl-6">
               <div className="">
                 <div className="title-area mb-4">
-                  <h2 className={`${yellowtail.className} fw-bold title-color  `}>Why Choose Us?</h2>
+                  <h2 className={`${yellowtail.className} fw-bold title-color  `}>Why Choose Finex?</h2>
 
                   <h2 className="fw-bold">Here Is How We Improve Patients Healthcare Analysis</h2>
                 </div>
@@ -196,7 +200,7 @@ export default function Home() {
                   <div className="accordion-item ">
                     <h2 className="accordion-header" id="headingOne">
                       <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Accordion Item #1
+                        How Do We Collect Data?
                       </button>
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -208,7 +212,7 @@ export default function Home() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingTwo">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Accordion Item #2
+                        How Long Does The Process Take?
                       </button>
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -220,7 +224,7 @@ export default function Home() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingThree">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Accordion Item #3
+                        Must I Be There Physically?
                       </button>
                     </h2>
                     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -234,7 +238,7 @@ export default function Home() {
             </div>
             <div className="col-12 col-md-6 ">
               <div className="">
-                <Image src='/pics/nurse.png' className="faq_image" height={600} width={500} alt="" />
+                <Image src='/pics/2147767270-removebg-preview.png' className="faq_image d-block m-auto" height={400} width={400} alt="" />
               </div>
             </div>
           </div>
@@ -244,7 +248,7 @@ export default function Home() {
       {/* Work Process */}
       <section className="process">
         <div className="container my-5 ">
-          <h2 className={`${yellowtail.className} fw-bold title-color text-center `}>Work Process</h2>
+          <h2 className={`${yellowtail.className} fw-bold title-color text-center `}>Finex Work Process</h2>
 
           <h3 className="text-center display-6  fw-bold">Lets see how we work</h3>
           <div className="row">
@@ -301,12 +305,12 @@ export default function Home() {
         <div className="container ">
           <div className="team-heading text-center">
             <h3 className={`${yellowtail.className} fs-2 fw-bold`}>Our Team</h3>
-            <h2 className="fw-bold ">Meet Our professional Team</h2>
+            <h2 className="fw-bold ">Meet Finex professional Team</h2>
           </div>
           <div className="row g-4">
             <div className="col-md-3 position-relative">
               <div className="text-center team-card bg-white rounded-4 p-3">
-                <Image src='/pics/team-img1.jpg' alt="" width={200} height={200} className="rounded-pill" />
+                <Image src='/pics/145862.png' alt="" width={100} height={100} className="rounded-pill" />
                 <p>Mr. Thomson Mary</p>
                 <p>Doctor</p>
               </div>
@@ -314,7 +318,7 @@ export default function Home() {
             </div>
             <div className="col-md-3 ">
               <div className="text-center team-card bg-white rounded-4 p-3">
-                <Image src='/pics/team-img2.jpg' alt="" width={200} height={200} className="rounded-pill" />
+                <Image src='/pics/9967199.png' alt="" width={100} height={100} className="rounded-pill" />
                 <p>Mr. Thomson Mary</p>
                 <p>Doctor</p>
               </div>
@@ -322,7 +326,7 @@ export default function Home() {
             </div>
             <div className="col-md-3 ">
               <div className="text-center team-card bg-white rounded-4 p-3">
-                <Image src='/pics/team-img3.jpg' alt="" width={200} height={200} className="rounded-pill" />
+                <Image src='/pics/4086652.png' alt="" width={100} height={100} className="rounded-pill" />
                 <p>Mr. Thomson Mary</p>
                 <p>Doctor</p>
               </div>
@@ -330,7 +334,7 @@ export default function Home() {
             </div>
             <div className="col-md-3 ">
               <div className="text-center team-card bg-white rounded-4 p-3">
-                <Image src='/pics/team-img4.jpg' alt="" width={200} height={200} className="rounded-pill" />
+                <Image src='/pics/11696670.png' alt="" width={100} height={100} className="rounded-pill" />
                 <p>Mr. Thomson Mary</p>
                 <p>Doctor</p>
               </div>

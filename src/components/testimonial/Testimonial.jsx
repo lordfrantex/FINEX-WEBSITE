@@ -25,39 +25,33 @@ const Testimonial = () => {
     const testimony = [
         {
             img: '/pics/nurse.png',
-            name: "Mr Ope",
+            name: "Mr C. Henry",
             position: "C.E.O of Gadjet Care Technology",
-            testimony: "Mohztec technologies are the best in solar technologies and CCTV installation. My solar setup and CCTV have been working 24/7 without any issues.",
+            testimony: "Thanks to Finex health, they are really amazing. They analyzed all my health records with ease and helped with the visualization as well.",
 
         },
         {
             img: '/pics/nurse.png',
-            name: "Mr Ope",
+            name: "Mrs A. Susan",
             position: "C.E.O of Gadjet Care Technology",
-            testimony: "Mohztec technologies are the best in solar technologies and CCTV installation. My solar setup and CCTV have been working 24/7 without any issues.",
+            testimony: "Finex service is the best and very reliable. They visualized all my health records, and their decision based on the analysis is very accurate.",
 
         },
         {
             img: '/pics/nurse.png',
-            name: "Mr Ope",
+            name: "Martins",
             position: "C.E.O of Gadjet Care Technology",
-            testimony: "Mohztec technologies are the best in solar technologies and CCTV installation. My solar setup and CCTV have been working 24/7 without any issues.",
+            testimony: "I must commend Finex health care for their sports engagement, they are the best I would recommend.",
 
         },
         {
             img: '/pics/nurse.png',
-            name: "Mr Ope",
+            name: "Allen James",
             position: "C.E.O of Gadjet Care Technology",
-            testimony: "Mohztec technologies are the best in solar technologies and CCTV installation. My solar setup and CCTV have been working 24/7 without any issues.",
+            testimony: "Finex is very good at visualization and analysis, together with appropriate documentation. They are the best.",
 
         },
-        {
-            img: '/pics/nurse.png',
-            name: "Mr Ope",
-            position: "C.E.O of Gadjet Care Technology",
-            testimony: "Mohztec technologies are the best in solar technologies and CCTV installation. My solar setup and CCTV have been working 24/7 without any issues.",
 
-        },
 
 
 
