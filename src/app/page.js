@@ -351,7 +351,7 @@ export default function Home() {
           <div className="row g-4 justify-content-center">
             <div className="col-md-3 position-relative">
               <div className="text-center team-card bg-white rounded-4 p-3">
-                <Image src='/pics/145862.png' alt="" width={100} height={100} className="rounded-pill" />
+                <Image src='/pics/4086652.png' alt="" width={100} height={100} className="rounded-pill" />
                 <p>Mr. Chris Anazia</p>
                 <p>Founder/Manager</p>
               </div>
