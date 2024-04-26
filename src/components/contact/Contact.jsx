@@ -1,15 +1,16 @@
 'use client'
 import React, { useState, useRef } from 'react'
-// import toast from 'react-hot-toast'
 import emailjs from '@emailjs/browser';
 import { Yellowtail } from "next/font/google";
-
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useThemeContext } from '@/context/ThemeContext';
 
 const yellowtail = Yellowtail({ subsets: ['latin'], weight: '400', display: 'swap' })
 
 const Contact = () => {
+    const { theme, setTheme, store, dispatch } = useThemeContext()
+
 
     const [isLoading, setIsLoading] = useState(false)
     const form = useRef();
@@ -32,6 +33,10 @@ const Contact = () => {
 
     return (
         <div className="container">
+
+            {/* <div className="">
+                Paracetamol:{store.paracetamol}
+            </div> */}
             <ToastContainer />
             <form ref={form} onSubmit={sendEmail}>
                 <h2 className={`${yellowtail.className} fw-bold text-center head-text`}>Contact Us</h2>
@@ -73,7 +78,7 @@ const Contact = () => {
                 </div>
                 <button disabled={isLoading} type="submit" className=" w-100 my-3">{isLoading ? "Sending..." : 'Submit'}</button>
             </form>
-        </div>
+        </div >
     )
 }
 
