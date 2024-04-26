@@ -36,8 +36,8 @@ const Footer = () => {
                         <div className="col-md-4">
                             <h5>Contact Us</h5>
                             <p><FaLocationDot /> 123 Street, City, Country</p>
-                            <p><IoIosMail /> info@example.com</p>
-                            <p><FaPhone /> +123456789</p>
+                            <p><IoIosMail /> service@finexhealth.com</p>
+                            <p><FaPhone /> +14244042013</p>
 
                         </div>
                     </div>
