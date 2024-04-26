@@ -35,16 +35,15 @@ const Footer = () => {
                         </div>
                         <div className="col-md-4">
                             <h5>Contact Us</h5>
-                            <p><FaLocationDot /> 123 Street, City, Country</p>
-                            <p><IoIosMail /> service@finexhealth.com</p>
-                            <p><FaPhone /> +14244042013</p>
-
+                            <p className='d-flex gap-3'> <span><FaLocationDot size={25} /></span>Broadway Street, Off Hawthorne Blvd, Hawthorne, CA, 90250</p>
+                            <p><IoIosMail className='me-3' size={25} />service@finexhealth.com</p>
+                            <p><FaPhone className='me-3' size={25} /> +14244042013</p>
                         </div>
                     </div>
                 </div>
             </footer>
             <div className="container-fluid text-center bg-white text-black p-3">Copyright @ 2024 Finex health All Rights Reserved</div>
-            <a href='https://wa.me/+14244042013'> <Image src='/pics/whatsapp.png' className="position-fixed whatsapp-fixed bottom-0 end-0 m-3" width={50} height={50} alt="" /></a>
+            <a href='https://wa.me/+14244042013'> <Image src='/pics/whatsapp.png' className="rounded-pill position-fixed whatsapp-fixed bottom-0 end-0 m-3" width={50} height={50} alt="" /></a>
 
         </div>
     )

@@ -193,3 +193,22 @@ section.contact-us{
         }
     }
 }
+
+.data-driven{
+    p{
+        position: relative;
+       
+       span.quote-up, {
+        position: absolute;
+        top: -30px;
+        left: -30px;
+        transform: rotate(180deg);
+       }
+        .quote-down{
+        position: absolute;
+        bottom: -30px;
+        right: -30px;
+       }
+
+    }
+}

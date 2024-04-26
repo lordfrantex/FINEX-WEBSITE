@@ -31,14 +31,18 @@ export default function Home() {
             </div>
             <div className="col-12 col-md-6">
               <div className="">
-                <div className="d-flex align-items-center gap-4 my-3">
+                {/* <div className="d-flex align-items-center gap-4 my-3">
 
                   <Image src='/pics/about.png' height={70} width={70} alt="" />
                   <h2 className={`${yellowtail.className} fw-bold about-us`}>About Us</h2>
+                </div> */}
+                <h3 className="fs-1 fw-bold">Finex Healthcare Analytics and Informatics LLC</h3>
+                <p>Finex Healthcare Analytics and Informatics Consult LLC is a firm that focuses on the analysis of big and difficult health data. Our aim is to enhance and increase the efficacy of the process of healthcare delivery, liaising with healthcare providers and patients in managing cost of care delivery etc. The primary focus is using patient historical data and findings to make intelligent and informed decisions. The end product is to apply various visualization tools to support our services and results. </p>
+                <div>
+                  {/* <h3>About Us</h3> */}
+                  <h2 className={`${yellowtail.className} fw-bold about-uss`}>About Us</h2>
+                  <p>We are a new and developing wellness, market research, strategy and consulting company with knowledge to build the skills required to navigate growing level of healthcare data. We liaise with healthcare facilities to solve their staffing needs. Here are some of the benefits of our healthcare analysis:</p>
                 </div>
-                <h3 className="fs-1 fw-bold">Finex Health Care Services and Informatics</h3>
-                <p>At Finex healthcare analytics and informatics, we believe in seamless turning data to action. We engage, find, analyze, and interprete patient's current and historic data using digital technologies. We gather, examine patients environment, predict and visualize possible outcomes that affect them.</p>
-                <p> We are a new and developing wellness, market research, and strategy counsulting company with knowledge to build the skills required to navigate growing level of healthcare data and liaise with healthcare facilities to solve their staffing needs. Here are some of the benefits of our healthcare analysis: </p>
                 <div className="d-sm-flex d-block gap-5">
 
                   <ul>
@@ -54,12 +58,24 @@ export default function Home() {
 
                 </div>
 
+
               </div>
             </div>
           </div>
         </div>
-      </section>
 
+        <section className="container py-5 data-driven">
+          <div className="col-12 col-md-8 mx-auto fst-italic">
+            <h2 className="text-center">The Future Is Data Driven</h2>
+            <p className="text-center">
+              <span className="quote-up   d-none d-md-block"><Image src="/pics/quote.png" className="" height={40} width={40} alt="" /></span>
+              <span className="quote-down d-none d-md-block"><Image src="/pics/quote.png" className="" height={40} width={40} alt="" /></span>
+
+              At Finex Healthcare Analytics and Informatics, we believe in seamless turning data to action. We engage, find, analyze, and interpret patient current and historic data using digital technologies. We gather, examine patient environment, and predict, visualize possible outcomes that affects them. We are a new and developing wellness, market research, and strategy consulting company with knowledge to build the skills required to navigate growing levels of healthcare data and liaise with healthcare facilities to solve their staffing needs.
+            </p>
+          </div>
+        </section>
+      </section>
 
       {/* Our Services */}
       <section className="services" id="services">
@@ -108,7 +124,7 @@ export default function Home() {
                 <Image src="/pics/sports.png" height={70} width={70} alt="" />
 
                 <h3 className="m-0 fs-4 text-center fw-bold">Sports Promotion and Engagement</h3>
-                <p>We encourage physical exercises and wellness through active participation and promotion of sporting activities. We optimise and utilize different tools, strategies and resources to promote a product that will generate additional demand. To achieve this, we identify our potential customers, decide on promoting budget, and select the product to promote. We also identify, partner and affilate with non-governmental organization(NGO) to sponsor and facilitate sporting engagements to enable the general public derive maximum benefits. </p>
+                <p>We encourage physical exercises and wellness through active participation and promotion of sporting activities. We optimise and utilize different tools, strategies and resources to promote a product that will generate additional demand. To achieve this, we identify our potential customers, decide on promotion budget, and select the product to promote. We also identify, partner and affilate with non-governmental organization(NGO) to sponsor and facilitate sporting engagements to enable the general public derive maximum benefits. </p>
                 {/* <p>At Finex, we are uniquely positioned to also engage our patients in sports activities and also enhance their overall fitness in sports experience. We employ personalized strategies to tailor personalized services to the specific interests of our clients.</p> */}
                 {/* <button className="m-0 btn border rounded-pill">Read More</button> */}
 
@@ -119,6 +135,20 @@ export default function Home() {
 
           </div>
         </div>
+
+
+
+        <section className="container py-5 data-driven">
+          <div className="col-12 col-md-8 mx-auto fst-italic">
+            <h2 className="text-center">Start Of Business Operation</h2>
+            <p className="text-center">
+              <span className="quote-up   d-none d-md-block"><Image src="/pics/quote.png" className="" height={40} width={40} alt="" /></span>
+              <span className="quote-down d-none d-md-block"><Image src="/pics/quote.png" className="" height={40} width={40} alt="" /></span>
+              Finex Healthcare Analytics was formed and owned by a seasoned social change engineer Chris Anazia in March 2022. He holds a B.sc degree in Mathematics, Economics and M.sc degree in Applied Economics. He is currently pursuing a Ph.D. degree in Public Health. He is passionate about health economics and public health and how to apply digital technology to improve healthcare delivery worldwide.
+              The business was approved by the office of the Secretary of State of California on March 17th, 2022.
+            </p>
+          </div>
+        </section>
       </section>
 
 
@@ -251,7 +281,7 @@ export default function Home() {
           <h2 className={`${yellowtail.className} fw-bold title-color text-center `}>Finex Work Process</h2>
 
           <h3 className="text-center display-6  fw-bold">Lets see how we work</h3>
-          <div className="row">
+          <div className="row justify-content-center">
             <div className="col-lg-3 col-12 my-3">
               <div className=" p-3 text-center rounded-3 process-label">
                 <span className="label-1">01</span>
@@ -260,7 +290,7 @@ export default function Home() {
                   <Image src='/pics/process_card_1.jpg' alt="" width={150} height={150} className="rounded-pill" />
                 </div>
                 <p className="fs-5 fw-bold">Patient Registration</p>
-                <p>The first step in our process is to welcome our patients and ensure they have a experience.</p>
+                {/* <p>The first step in our process is to welcome our patients and ensure they have a experience.</p> */}
               </div>
             </div>
             <div className="col-lg-3 col-12 my-3">
@@ -270,8 +300,8 @@ export default function Home() {
                 <div className="image">
                   <Image src='/pics/process_card_2.jpg' alt="" width={150} height={150} className="rounded-pill" />
                 </div>
-                <p className="fs-5 fw-bold">Patient Registration</p>
-                <p>The first step in our process is to welcome our patients and ensure they have a experience.</p>
+                <p className="fs-5 fw-bold">Assessment</p>
+                {/* <p>The first step in our process is to welcome our patients and ensure they have a experience.</p> */}
               </div>
             </div>
             <div className="col-lg-3 col-12 my-3">
@@ -281,8 +311,8 @@ export default function Home() {
                 <div className="image">
                   <Image src='/pics/process_card_3.jpg' alt="" width={150} height={150} className="rounded-pill" />
                 </div>
-                <p className="fs-5 fw-bold">Patient Registration</p>
-                <p>The first step in our process is to welcome our patients and ensure they have a experience.</p>
+                <p className="fs-5 fw-bold">Identification</p>
+                {/* <p>The first step in our process is to welcome our patients and ensure they have a experience.</p> */}
               </div>
             </div>
             <div className="col-lg-3 col-12 my-3">
@@ -292,8 +322,19 @@ export default function Home() {
                 <div className="image">
                   <Image src='/pics/process_card_4.jpg' alt="" width={150} height={150} className="rounded-pill" />
                 </div>
-                <p className="fs-5 fw-bold">Patient Registration</p>
-                <p>The first step in our process is to welcome our patients and ensure they have a experience.</p>
+                <p className="fs-5 fw-bold">Solution</p>
+                {/* <p>The first step in our process is to welcome our patients and ensure they have a experience.</p> */}
+              </div>
+            </div>
+            <div className="col-lg-3 col-12 my-3">
+              <div className=" p-3 text-center rounded-3 process-label">
+                <span className="label-1">05</span>
+
+                <div className="image">
+                  <Image src='/pics/process_card_4.jpg' alt="" width={150} height={150} className="rounded-pill" />
+                </div>
+                <p className="fs-5 fw-bold">Evaluation</p>
+                {/* <p>The first step in our process is to welcome our patients and ensure they have a experience.</p> */}
               </div>
             </div>
           </div>
@@ -307,39 +348,39 @@ export default function Home() {
             <h3 className={`${yellowtail.className} fs-2 fw-bold`}>Our Team</h3>
             <h2 className="fw-bold ">Meet Finex professional Team</h2>
           </div>
-          <div className="row g-4">
+          <div className="row g-4 justify-content-center">
             <div className="col-md-3 position-relative">
               <div className="text-center team-card bg-white rounded-4 p-3">
                 <Image src='/pics/145862.png' alt="" width={100} height={100} className="rounded-pill" />
-                <p>Mr. Thomson Mary</p>
-                <p>Doctor</p>
+                <p>Mr. Chris Anazia</p>
+                <p>Founder/Manager</p>
               </div>
 
             </div>
-            <div className="col-md-3 ">
+            {/* <div className="col-md-3 ">
               <div className="text-center team-card bg-white rounded-4 p-3">
                 <Image src='/pics/9967199.png' alt="" width={100} height={100} className="rounded-pill" />
                 <p>Mr. Thomson Mary</p>
                 <p>Doctor</p>
               </div>
 
-            </div>
-            <div className="col-md-3 ">
+            </div> */}
+            {/* <div className="col-md-3 ">
               <div className="text-center team-card bg-white rounded-4 p-3">
                 <Image src='/pics/4086652.png' alt="" width={100} height={100} className="rounded-pill" />
                 <p>Mr. Thomson Mary</p>
                 <p>Doctor</p>
               </div>
 
-            </div>
-            <div className="col-md-3 ">
+            </div> */}
+            {/* <div className="col-md-3 ">
               <div className="text-center team-card bg-white rounded-4 p-3">
                 <Image src='/pics/11696670.png' alt="" width={100} height={100} className="rounded-pill" />
                 <p>Mr. Thomson Mary</p>
                 <p>Doctor</p>
               </div>
 
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
