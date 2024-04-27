@@ -3,6 +3,7 @@ import "./globals.scss";
 import Bootstrap from "@/components/Bootstrap";
 import ThemeContext from "@/context/ThemeContext";
 import Head from 'next/head'
+import AOSInit from "@/components/AOS";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
       </Head>
       <body className={inter.className}>
         <Bootstrap />
+        <AOSInit />
         <ThemeContext>
           {children}
         </ThemeContext>

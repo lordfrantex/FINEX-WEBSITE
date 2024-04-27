@@ -93,11 +93,12 @@ const Testimonial = () => {
     })
 
     return (
-        <section className='testimonial'>
+        <section className='testimonial' >
             <div className="heading-texts text-center">
-                <h3 className={`${yellowtail.className} text-white fw-bold fs-1`}>Customers Testimonials</h3>
+                <h3 className={`${yellowtail.className} text-white fw-bold fs-1`} data-aos="fade-up">Customers Testimonials</h3>
             </div>
             <Swiper
+                data-aos="fade-up"
                 effect={"coverflow"}
                 grabCursor={true}
                 loop={true}
