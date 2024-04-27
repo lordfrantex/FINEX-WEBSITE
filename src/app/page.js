@@ -51,7 +51,7 @@ export default function Home() {
                     <li><span className="me-1"><FaHeartPulse /></span>Data Management</li>
                   </ul>
                   <ul>
-                    <li><span className="me-1"><FaHeartPulse /></span>Care and Management</li>
+                    <li><span className="me-1"><FaHeartPulse /></span>Costcare and Management</li>
                     <li><span className="me-1"><FaHeartPulse /></span>Quality Staff</li>
                     <li><span className="me-1"><FaHeartPulse /></span>Client Specialization</li>
                   </ul>
@@ -71,7 +71,7 @@ export default function Home() {
               <span className="quote-up   d-none d-md-block"><Image src="/pics/quote.png" className="" height={40} width={40} alt="" /></span>
               <span className="quote-down d-none d-md-block"><Image src="/pics/quote.png" className="" height={40} width={40} alt="" /></span>
 
-              At Finex Healthcare Analytics and Informatics, we believe in seamless turning data to action. We engage, find, analyze, and interpret patient current and historic data using digital technologies. We gather, examine patient environment, and predict, visualize possible outcomes that affects them. We are a new and developing wellness, market research, and strategy consulting company with knowledge to build the skills required to navigate growing levels of healthcare data and liaise with healthcare facilities to solve their staffing needs.
+              At Finex Healthcare Analytics and Informatics, we believe in seamless turning data to action. We engage, find, analyze, and interpret patient current and historic data using digital technologies. We gather, examine patient environment, and predict, visualize possible outcomes that affects them.
             </p>
           </div>
         </section>
@@ -80,9 +80,7 @@ export default function Home() {
       {/* Our Services */}
       <section className="services" id="services">
         <div className="container  py-5 my-5">
-          <h2 className={`${yellowtail.className} fw-bold title-color text-center`}>Our Services</h2>
-          {/* <h2 className="text-center fs-1">Finex Specialties Technical Service</h2> */}
-          <h2 className="text-center fs-1">Finex Service</h2>
+          <h1 className={`${yellowtail.className} fw-bold title-color text-center`}>Finex Services</h1>
           <div className="row g-3 mt-4">
             <div className="col-12 col-md-3 ">
               <div className="bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-5 align-items-center">
@@ -112,7 +110,7 @@ export default function Home() {
                 <Image src="/pics/visualization.png" height={70} width={70} alt="" />
 
                 <h3 className="m-0 fs-4 text-center fw-bold">Visualization of Health Data</h3>
-                <p>Healthcare data visualization is the transformation of patients/residents raw data into visuals though the use of simple graphic, such as tables, charts, plots, dashboards, info graphics. It displays information, communicate difficult data connections and data-driven insights in a manner that is easy to understand. We also apply simple statistical analysis to draw conclusion.</p>
+                <p>Healthcare data visualization is the transformation of patients/residents raw data into visuals though the use of simple graphic, such as tables, charts, plots, dashboards, info graphics.<br /><br /> It displays information, communicate difficult data connections and data-driven insights in a manner that is easy to understand. We also apply simple statistical analysis to draw conclusion.</p>
                 {/* <p>We use analytical and visualization tools to analyze patients raw data generated from various sources, represent them using visual graphics like charts, plots, dashboard, infographics and tables, then draw conclusions based on statistics. </p> */}
                 {/* <button className="m-0 btn border rounded-pill">Read More</button> */}
 
@@ -124,7 +122,7 @@ export default function Home() {
                 <Image src="/pics/sports.png" height={70} width={70} alt="" />
 
                 <h3 className="m-0 fs-4 text-center fw-bold">Sports Promotion and Engagement</h3>
-                <p>We encourage physical exercises and wellness through active participation and promotion of sporting activities. We optimise and utilize different tools, strategies and resources to promote a product that will generate additional demand. To achieve this, we identify our potential customers, decide on promotion budget, and select the product to promote. We also identify, partner and affilate with non-governmental organization(NGO) to sponsor and facilitate sporting engagements to enable the general public derive maximum benefits. </p>
+                <p>We encourage physical exercises and wellness through active participation and promotion of sporting activities. We optimise and utilize different tools, strategies and resources to promote a product that will generate additional demand. <br /><br /> To achieve this, we identify our potential customers, decide on promotion budget, and select the product to promote. We also identify, partner and affilate with non-governmental organization(NGO) to sponsor and facilitate sporting engagements to enable the general public derive maximum benefits. </p>
                 {/* <p>At Finex, we are uniquely positioned to also engage our patients in sports activities and also enhance their overall fitness in sports experience. We employ personalized strategies to tailor personalized services to the specific interests of our clients.</p> */}
                 {/* <button className="m-0 btn border rounded-pill">Read More</button> */}
 
