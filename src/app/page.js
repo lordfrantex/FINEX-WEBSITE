@@ -18,7 +18,7 @@ export default function Home() {
       <Hero />
 
       {/* About us Section */}
-      <section className="about" id="about-us">
+      <section className="about" id="about-us" data-aos="fade-up">
         <div className="container py-5">
           <div className="row align-items-center">
             <div className="col-12 col-md-6">
@@ -36,21 +36,21 @@ export default function Home() {
                   <Image src='/pics/about.png' height={70} width={70} alt="" />
                   <h2 className={`${yellowtail.className} fw-bold about-us`}>About Us</h2>
                 </div> */}
-                <h3 className="fs-1 fw-bold">Finex Healthcare Analytics and Informatics LLC</h3>
-                <p>Finex Healthcare Analytics and Informatics Consult LLC is a firm that focuses on the analysis of big and difficult health data. Our aim is to enhance and increase the efficacy of the process of healthcare delivery, liaising with healthcare providers and patients in managing cost of care delivery etc. The primary focus is using patient historical data and findings to make intelligent and informed decisions. The end product is to apply various visualization tools to support our services and results. </p>
+                <h3 className="fs-1 fw-bold" data-aos="fade-up">Finex Healthcare Analytics and Informatics LLC</h3>
+                <p data-aos="fade-up">Finex Healthcare Analytics and Informatics Consult LLC is a firm that focuses on the analysis of big and difficult health data. Our aim is to enhance and increase the efficacy of the process of healthcare delivery, liaising with healthcare providers and patients in managing cost of care delivery etc. The primary focus is using patient historical data and findings to make intelligent and informed decisions. The end product is to apply various visualization tools to support our services and results. </p>
                 <div>
                   {/* <h3>About Us</h3> */}
-                  <h2 className={`${yellowtail.className} fw-bold about-uss`}>About Us</h2>
-                  <p>We are a new and developing wellness, market research, strategy and consulting company with knowledge to build the skills required to navigate growing level of healthcare data. We liaise with healthcare facilities to solve their staffing needs. Here are some of the benefits of our healthcare analysis:</p>
+                  <h2 className={`${yellowtail.className} fw-bold about-uss`} data-aos="fade-up">About Us</h2>
+                  <p data-aos="fade-up">We are a new and developing wellness, market research, strategy and consulting company with knowledge to build the skills required to navigate growing level of healthcare data. We liaise with healthcare facilities to solve their staffing needs. Here are some of the benefits of our healthcare analysis:</p>
                 </div>
                 <div className="d-sm-flex d-block gap-5">
 
-                  <ul>
+                  <ul data-aos="fade-up">
                     <li><span className="me-1"><FaHeartPulse /></span>Patience satisfaction</li>
                     <li><span className="me-1"><FaHeartPulse /></span>Staff Optimization</li>
                     <li><span className="me-1"><FaHeartPulse /></span>Data Management</li>
                   </ul>
-                  <ul>
+                  <ul data-aos="fade-up">
                     <li><span className="me-1"><FaHeartPulse /></span>Costcare and Management</li>
                     <li><span className="me-1"><FaHeartPulse /></span>Quality Staff</li>
                     <li><span className="me-1"><FaHeartPulse /></span>Client Specialization</li>
@@ -64,10 +64,10 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="container py-5 data-driven">
+        <section className="container py-5 data-driven" data-aos="zoom-in">
           <div className="col-12 col-md-8 mx-auto fst-italic">
             <h2 className="text-center">The Future Is Data Driven</h2>
-            <p className="text-center">
+            <p className="text-center" >
               <span className="quote-up   d-none d-md-block"><Image src="/pics/quote.png" className="" height={40} width={40} alt="" /></span>
               <span className="quote-down d-none d-md-block"><Image src="/pics/quote.png" className="" height={40} width={40} alt="" /></span>
 
@@ -80,9 +80,9 @@ export default function Home() {
       {/* Our Services */}
       <section className="services" id="services">
         <div className="container  py-5 my-5">
-          <h1 className={`${yellowtail.className} fw-bold title-color text-center`}>Finex Services</h1>
+          <h1 className={`${yellowtail.className} fw-bold title-color text-center`} data-aos="zoom-in">Finex Services</h1>
           <div className="row g-3 mt-4">
-            <div className="col-12 col-md-3 ">
+            <div className="col-12 col-md-3" data-aos="fade-down">
               <div className="bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-5 align-items-center">
                 <Image src="/pics/chart4.png" height={70} width={70} alt="" />
 
@@ -93,7 +93,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="col-12 col-md-3  ">
+            <div className="col-12 col-md-3" data-aos="fade-up">
               <div className=" bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-5 align-items-center">
 
                 <Image src="/pics/trained.png" height={70} width={70} alt="" />
@@ -104,7 +104,7 @@ export default function Home() {
 
               </div>
             </div>
-            <div className="col-12 col-md-3  ">
+            <div className="col-12 col-md-3" data-aos="fade-up">
               <div className="bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-5 align-items-center">
 
                 <Image src="/pics/visualization.png" height={70} width={70} alt="" />
@@ -116,7 +116,7 @@ export default function Home() {
 
               </div>
             </div>
-            <div className="col-12 col-md-3 ">
+            <div className="col-12 col-md-3" data-aos="fade-down">
               <div className="bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-5 align-items-center">
 
                 <Image src="/pics/sports.png" height={70} width={70} alt="" />
@@ -136,7 +136,7 @@ export default function Home() {
 
 
 
-        <section className="container py-5 data-driven">
+        <section className="container py-5 data-driven" data-aos="zoom-in">
           <div className="col-12 col-md-8 mx-auto fst-italic">
             <h2 className="text-center">Start Of Business Operation</h2>
             <p className="text-center">
@@ -157,13 +157,13 @@ export default function Home() {
           <div className="row align-items-center py-5">
             <div className="col-xl-6">
               <div className="">
-                <div className="title-area mb-4">
+                <div className="title-area mb-4" data-aos="fade-up">
                   <h2 className={`${yellowtail.className} fw-bold title-color  `}>Why Choose Finex?</h2>
 
                   <h2 className="fw-bold">Here Is How We Improve Patients Healthcare Analysis</h2>
                 </div>
                 <div className="choose-feature-wrap">
-                  <div className="choose-features d-flex gap-4 ">
+                  <div className="choose-features d-flex gap-4 " data-aos="fade-up">
                     <div className="">
                       <div className="box-number">
                         <Image src='/pics/7319389.png' width={40} height={40} alt="" />
@@ -174,7 +174,7 @@ export default function Home() {
                       <p>We relate with clients to support their organizational daily needs and goals.</p>
                     </div>
                   </div>
-                  <div className="choose-features d-flex gap-4 ">
+                  <div className="choose-features d-flex gap-4 " data-aos="fade-up">
                     <div className="">
                       <div className="box-number">
                         <Image src='/pics/chart6.png' width={40} height={40} alt="" />
@@ -186,7 +186,7 @@ export default function Home() {
                       <p>We interpret and transform complex data, and create visualization for ease of understanding.</p>
                     </div>
                   </div>
-                  <div className="choose-features d-flex gap-4 ">
+                  <div className="choose-features d-flex gap-4 " data-aos="fade-up">
                     <div className="">
                       <div className="box-number">
                         <Image src='/pics/4435682.png' width={35} height={40} alt="" />
@@ -202,7 +202,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-xl-6">
-              <div className="">
+              <div className="" data-aos="zoom-in">
                 <Image src='/pics/why_1.jpg' className='why-us-img rounded-4 m-auto d-block' height={550} width={550} alt="" />
 
               </div>
@@ -217,7 +217,7 @@ export default function Home() {
         <div className="container  my-0">
           <div className="row g-5 align-items-center py-5">
             <div className="col-12 col-md-6">
-              <div className="">
+              <div className="" data-aos="fade-up">
                 <div className="accordion" id="accordionExample">
                   <div className="d-flex gap-1 align-items-center my-3">
                     <Image src='/pics/think.png' height={50} width={50} alt="" />
@@ -276,10 +276,10 @@ export default function Home() {
       {/* Work Process */}
       <section className="process">
         <div className="container my-5 ">
-          <h2 className={`${yellowtail.className} fw-bold title-color text-center `}>Finex Work Process</h2>
+          <h2 className={`${yellowtail.className} fw-bold title-color text-center `} data-aos="fade-up">Finex Work Process</h2>
 
-          <h3 className="text-center display-6  fw-bold">Lets see how we work</h3>
-          <div className="row justify-content-center">
+          <h3 className="text-center display-6  fw-bold" data-aos="fade-up">Lets see how we work</h3>
+          <div className="row justify-content-center" data-aos="fade-up">
             <div className="col-lg-3 col-12 my-3">
               <div className=" p-3 text-center rounded-3 process-label">
                 <span className="label-1">01</span>
@@ -340,7 +340,7 @@ export default function Home() {
       </section>
 
       {/* Team Section */}
-      <section className="team" id="team">
+      <section className="team" id="team" data-aos="zoom-in">
         <div className="container ">
           <div className="team-heading text-center">
             <h3 className={`${yellowtail.className} fs-2 fw-bold`}>Our Team</h3>
@@ -385,7 +385,7 @@ export default function Home() {
 
 
       {/* get in touch */}
-      <section className="contact-us" id="contact">
+      <section className="contact-us" id="contact" data-aos="fade-up">
         <Contact />
       </section>
 
