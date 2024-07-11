@@ -46,7 +46,7 @@ export default function Home() {
                 <div className="d-sm-flex d-block gap-5">
 
                   <ul data-aos="fade-up">
-                    <li><span className="me-1"><FaHeartPulse /></span>Patience satisfaction</li>
+                    <li><span className="me-1"><FaHeartPulse /></span>Client satisfaction</li>
                     <li><span className="me-1"><FaHeartPulse /></span>Staff Optimization</li>
                     <li><span className="me-1"><FaHeartPulse /></span>Data Management</li>
                   </ul>
