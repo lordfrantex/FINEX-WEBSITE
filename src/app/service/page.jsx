@@ -3,7 +3,7 @@ import axios from 'axios';
 
 import { useState } from 'react';
 
-const page = () => {
+const Page = () => {
 
     const [file, setFile] = useState('');
 
@@ -52,4 +52,4 @@ const page = () => {
         </div>
     );
 }
-export default page
+export default Page
