@@ -65,11 +65,13 @@ section.services{
     .service-item{
         transition: all .3s ease-in-out;
         cursor: pointer;
+
         h3{
             color: $secondary-colors;
         }
+
         &:hover{
-            scale: 1.08;
+            scale: 1.03;
             border: 1px solid $secondary-colors !important;
         }
     }
