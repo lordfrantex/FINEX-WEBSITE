@@ -12,7 +12,7 @@ import 'swiper/css/effect-cards';
 import './style.scss';
 
 // import required modules
-import { EffectCards } from 'swiper/modules';
+import { EffectCards, Autoplay } from 'swiper/modules';
 
 const SportSwiper = () => {
 
@@ -21,7 +21,11 @@ const SportSwiper = () => {
             <Swiper
                 effect={'cards'}
                 grabCursor={true}
-                modules={[EffectCards]}
+                modules={[EffectCards, Autoplay]}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                }}
                 className="sport-swiper mySwiper"
             >
                 <SwiperSlide>
