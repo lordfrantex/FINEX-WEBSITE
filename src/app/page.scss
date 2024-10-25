@@ -61,6 +61,18 @@ section.faq{
         }
     }
 }
+section.sport-engagement{
+    .insta-link{
+        max-width: 340px;
+        margin: 10px auto;
+        color: blue;
+        font-size: 14px;
+        text-align: center;
+        a{
+            text-decoration: underline;
+        }
+    }
+}
 section.services{
     .service-item{
         transition: all .3s ease-in-out;

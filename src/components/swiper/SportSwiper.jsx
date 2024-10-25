@@ -23,19 +23,30 @@ const SportSwiper = () => {
                 grabCursor={true}
                 modules={[EffectCards, Autoplay]}
                 autoplay={{
-                    delay: 2500,
+                    delay: 5000,
                     disableOnInteraction: false,
                 }}
                 className="sport-swiper mySwiper"
             >
+
                 <SwiperSlide>
                     <div className="tour-pics">
-                        <img src="./pics/tour-pics/thesunnigeria_461442911_929226569239161_7043063996820766314_n.jpg" alt="" />
+                        <img src="./pics/tour-pics/Pix-1-1-3-1024x683.jpg" alt="" />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="tour-pics">
+                        <img src="./pics/tour-pics/Chris-Anazia-Table-Tennis.jpg" alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="tour-pics">
                         <img src="./pics/tour-pics/Alukimba Picture 1.jpg" alt="" />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="tour-pics">
+                        <img src="./pics/tour-pics/thesunnigeria_461442911_929226569239161_7043063996820766314_n.jpg" alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -48,11 +59,7 @@ const SportSwiper = () => {
                         <img src="./pics/tour-pics/download (1).jpg" alt="" />
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div className="tour-pics">
-                        <img src="./pics/tour-pics/download (2).jpg" alt="" />
-                    </div>
-                </SwiperSlide>
+
                 <SwiperSlide>
                     <div className="tour-pics">
                         <img src="./pics/tour-pics/download.jpg" alt="" />

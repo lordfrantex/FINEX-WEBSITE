@@ -37,11 +37,11 @@ export default function Home() {
                   <Image src='/pics/about.png' height={70} width={70} alt="" />
                   <h2 className={`${yellowtail.className} fw-bold about-us`}>About Us</h2>
                 </div> */}
-                <h3 className="fs-1 fw-bold" data-aos="fade-up">Finex Healthcare Analytics and Informatics LLC</h3>
+                <h3 className="fs-1 fw-bold title-color" data-aos="fade-up">Finex Healthcare Analytics and Informatics LLC</h3>
                 <p data-aos="fade-up">Finex Healthcare Analytics and Informatics Consult LLC is a firm that focuses on the analysis of big and difficult health data. Our aim is to enhance and increase the efficacy of the process of healthcare delivery, liaising with healthcare providers and patients in managing cost of care delivery etc. The primary focus is using patient historical data and findings to make intelligent and informed decisions. The end product is to apply various visualization tools to support our services and results. </p>
                 <div>
                   {/* <h3>About Us</h3> */}
-                  <h2 className={`${yellowtail.className} fw-bold about-uss`} data-aos="fade-up">About Us</h2>
+                  <h2 className={`${yellowtail.className} fw-bold about-uss title-color`} data-aos="fade-up">About Us</h2>
                   <p data-aos="fade-up">We are a new and developing wellness, market research, strategy and consulting company with knowledge to build the skills required to navigate growing level of healthcare data. We liaise with healthcare facilities to solve their staffing needs. Here are some of the benefits of our healthcare analysis:</p>
                 </div>
                 <div className="d-sm-flex d-block gap-5">
@@ -57,6 +57,15 @@ export default function Home() {
                     <li><span className="me-1"><FaHeartPulse /></span>Client Specialization</li>
                   </ul>
 
+                </div>
+                <div className="">
+                  {/* <h3>Future Projects</h3> */}
+                  <h2 className={`${yellowtail.className} fw-bold about-uss title-color`} data-aos="fade-up">Future Projects</h2>
+
+                  <p data-aos="fade-up">
+                    To build a library facility, Healthcare institution, sports and education complex at a
+                    designated site in Nigeria.
+                  </p>
                 </div>
 
 
@@ -83,16 +92,16 @@ export default function Home() {
         <div className="container  py-5 my-5">
           <h1 className={`${yellowtail.className} fw-bold title-color text-center`} data-aos="zoom-in">Finex Services</h1>
           <div className="row g-3 mt-4">
-            <div className="col-12 col-lg-3" data-aos="fade-down">
+            <div className="col-12 col-lg-6" data-aos="fade-down">
               <div className="bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-4 align-items-center">
                 <Image src="/pics/chart4.png" height={70} width={70} alt="" />
 
                 <h3 className="m-0 fs-4 fw-bold text-center">Patient Care Analytics</h3>
-                <p>We partner and support healthcare facilities and organizations to deliver better quality care to client's residents.</p>
+                <p className="pb-5">We partner and support healthcare facilities and organizations to deliver better quality care to client's residents.</p>
               </div>
             </div>
 
-            <div className="col-12 col-lg-3" data-aos="fade-up">
+            <div className="col-12 col-lg-6" data-aos="fade-up">
               <div className=" bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-4 align-items-center">
 
                 <Image src="/pics/trained.png" height={70} width={70} alt="" />
@@ -102,7 +111,7 @@ export default function Home() {
 
               </div>
             </div>
-            <div className="col-12 col-lg-3" data-aos="fade-up">
+            <div className="col-12 col-lg-6" data-aos="fade-up">
               <div className="bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-4 align-items-center">
 
                 <Image src="/pics/visualization.png" height={70} width={70} alt="" />
@@ -111,12 +120,13 @@ export default function Home() {
                 <p>Healthcare data visualization is the transformation of patients/residents raw data into visuals though the use of simple graphic, such as tables, charts, plots, dashboards, info graphics.<br /><br /> It displays information, communicate difficult data connections and data-driven insights in a manner that is easy to understand. We also apply simple statistical analysis to draw conclusion.</p>
               </div>
             </div>
-            <div className="col-12 col-lg-3" data-aos="fade-down">
+            <div className="col-12 col-lg-6" data-aos="fade-down">
               <div className="bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-4 align-items-center">
 
                 <Image src="/pics/sports.png" height={70} width={70} alt="" />
 
-                <h3 className="m-0 fs-4 text-center fw-bold">Sports Promotion and Engagement (SPEED)</h3>
+                <h3 className="m-0 fs-4 text-center fw-bold">Sports Promotion, Engagement and Education (SPEED)</h3>
+
                 <p>We encourage education, physical exercises and wellness through active participation in
                   sports and promotion of sporting activities. We optimize and utilize different tools,
                   strategies and resources to support a product that will generate additional demand. <br /><br />
@@ -135,16 +145,19 @@ export default function Home() {
           </div>
         </div>
 
-        <section>
+        <section className="sport-engagement">
           <div className="container">
+
+            {/* <h2 className="text-center fw-bold">Sports Promotion and Engagement</h2> */}
+            <h2 data-aos="fade-up" className={`${yellowtail.className} fw-bold text-center title-color`}>Sports Promotion and Engagement</h2>
 
             <div className="row align-items-center">
               <div className="col-lg-6">
-                <p>The inaugural edition of Basil Offor Table Tennis Tournament, hosted by Finex
+                <p data-aos="fade-in">The inaugural edition of Basil Offor Table Tennis Tournament, hosted by Finex
                   Healthcare in partnership with Elmarino Sport Club, was a tremendous success and a
                   delight to sports lovers.
                   Held on Monday, September 16th, the event attracted a large and enthusiastic crowd of
-                  participants and spectators, celebrating both the spirit of competition and community.
+                  participants and spectators, celebrating both the spirit of competition and community.<br /><br />
                   Sponsored by Chris Anazia, the tournament was a heartfelt tribute to the late Basil
                   Offor, a cherished member of the community. The tournament showcased high levels of
                   skill, as participants’ demonstrated sportsmanship and determination on the tables.
@@ -153,13 +166,13 @@ export default function Home() {
                   respect of their peers.
                   In addition to the thrilling competition, the event was a celebration of camaraderie,
                   featuring a lively atmosphere filled with delicious food, refreshing drinks, and vibrant
-                  entertainment.
+                  entertainment.<br /><br />
                   The collaboration between Finex Healthcare and Elmarino Sport Club brought the
                   community together, reflecting their shared commitment to health and wellness.
                   This tournament marks Finex Healthcare&#39;s ongoing dedication to promoting health
                   through sports and community engagement.
                   For participants, the tournament was not only a celebration of the game but also a way
-                  to honour the legacy of a loved one.
+                  to honour the legacy of a loved one.<br /><br />
                   El-Marino is a Lagos-based sports and social club that promotes physical development
                   of members and healthy living through participation in sporting activities.
                   It is a non-religious, multicultural and non-governmental club that also develops and
@@ -169,7 +182,18 @@ export default function Home() {
                   sponsored the 2023 edition.</p>
               </div>
               <div className="col-lg-6">
-                <SportSwiper />
+                <div className="">
+
+                  <SportSwiper />
+                </div>
+                <div className="insta-link">
+                  <i>
+                    <Link href='https://www.instagram.com/thesunnigeria/p/DAbPXnTIVwJ/' className="">
+                      The Sun Nigeria | Associates honour Basil Offor with tennis tournament The inaugural
+                      Basil Offor Table Tennis Tournament, hosted by Finex Healthcare in... | Instagram
+                    </Link>
+                  </i>
+                </div>
               </div>
             </div>
           </div>
