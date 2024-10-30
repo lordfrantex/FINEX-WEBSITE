@@ -117,7 +117,10 @@ export default function Home() {
                 <Image src="/pics/visualization.png" height={70} width={70} alt="" />
 
                 <h3 className="m-0 fs-4 text-center fw-bold">Visualization of Health Data</h3>
-                <p>Healthcare data visualization is the transformation of patients/residents raw data into visuals though the use of simple graphic, such as tables, charts, plots, dashboards, info graphics.<br /><br /> It displays information, communicate difficult data connections and data-driven insights in a manner that is easy to understand. We also apply simple statistical analysis to draw conclusion.</p>
+                <div className="">
+                  <p className="mb-0m pb-0m bordern">Healthcare data visualization is the transformation of patients/residents raw data into visuals though the use of simple graphic, such as tables, charts, plots, dashboards, info graphics.</p>
+                  <p> It displays information, communicate difficult data connections and data-driven insights in a manner that is easy to understand. We also apply simple statistical analysis to draw conclusion.</p>
+                </div>
               </div>
             </div>
             <div className="col-12 col-lg-6" data-aos="fade-down">
@@ -126,17 +129,18 @@ export default function Home() {
                 <Image src="/pics/sports.png" height={70} width={70} alt="" />
 
                 <h3 className="m-0 fs-4 text-center fw-bold">Sports Promotion, Engagement and Education (SPEED)</h3>
+                <div className="">
 
-                <p>We encourage education, physical exercises and wellness through active participation in
-                  sports and promotion of sporting activities. We optimize and utilize different tools,
-                  strategies and resources to support a product that will generate additional demand. <br /><br />
-                  To achieve this, we identify talents in education, sports and other humanitarian services.
-                  We decide on promotional and sponsorship budget, and select the activity to sponsor.
-                  We also partner and affiliate with non-governmental organization (NGO) to sponsor
-                  talents in educational program and sporting engagement. We facilitate sporting
-                  engagements to enable the general public derive maximum benefits.</p>
-                {/* <p>We encourage physical exercises and wellness through active participation and promotion of sporting activities. We optimise and utilize different tools, strategies and resources to promote a product that will generate additional demand. <br /><br /> To achieve this, we identify our potential customers, decide on promotion budget, and select the product to promote. We also identify, partner and affilate with non-governmental organization(NGO) to sponsor and facilitate sporting engagements to enable the general public derive maximum benefits. </p> */}
-
+                  <p>We encourage education, physical exercises and wellness through active participation in
+                    sports and promotion of sporting activities. We optimize and utilize different tools,
+                    strategies and resources to support a product that will generate additional demand.</p>
+                  <p> To achieve this, we identify talents in education, sports and other humanitarian services.
+                    We decide on promotional and sponsorship budget, and select the activity to sponsor.
+                    We also partner and affiliate with non-governmental organization (NGO) to sponsor
+                    talents in educational program and sporting engagement. We facilitate sporting
+                    engagements to enable the general public derive maximum benefits.</p>
+                  {/* <p>We encourage physical exercises and wellness through active participation and promotion of sporting activities. We optimise and utilize different tools, strategies and resources to promote a product that will generate additional demand. <br /><br /> To achieve this, we identify our potential customers, decide on promotion budget, and select the product to promote. We also identify, partner and affilate with non-governmental organization(NGO) to sponsor and facilitate sporting engagements to enable the general public derive maximum benefits. </p> */}
+                </div>
               </div>
             </div>
 
@@ -145,41 +149,63 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="sport-engagement">
+        <section className="bg-white py-5">
           <div className="container">
+            <div className="row align-items-center">
 
-            {/* <h2 className="text-center fw-bold">Sports Promotion and Engagement</h2> */}
-            <h2 data-aos="fade-up" className={`${yellowtail.className} fw-bold text-center title-color`}>Sports Promotion and Engagement</h2>
+              <div className="col-md-6 mt text-center">
+                <h3 className="fw-bold">Research</h3>
+                <Link className="text-decoration-underline text-primary" href='https://digitalcommons.usu.edu/gradreports/232/'>Comparative analysis of healthcare expenditures in the United States and Canada.</Link>
+              </div>
+              <div className="col-md-6 mt">
+                <div className="position-relative">
+                  <img src="/pics/tour-pics/research2.jpg" width='100%' className="" alt="" />
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section className="sport-engagement">
+          <div className="container m-5">
+
+            <h2 data-aos="fade-up" className={`${yellowtail.className} fw-bold text-center title-color mb-5`}>Sports Promotion and Engagement</h2>
 
             <div className="row align-items-center">
               <div className="col-lg-6">
-                <p data-aos="fade-in">The inaugural edition of Basil Offor Table Tennis Tournament, hosted by Finex
-                  Healthcare in partnership with Elmarino Sport Club, was a tremendous success and a
-                  delight to sports lovers.
-                  Held on Monday, September 16th, the event attracted a large and enthusiastic crowd of
-                  participants and spectators, celebrating both the spirit of competition and community.<br /><br />
-                  Sponsored by Chris Anazia, the tournament was a heartfelt tribute to the late Basil
-                  Offor, a cherished member of the community. The tournament showcased high levels of
-                  skill, as participants’ demonstrated sportsmanship and determination on the tables.
-                  The top three finishers of the tournament were Anthony Akamagwuna, Uche Ekwueme,
-                  and Irikhefe Ekaekete. Each winner received a cash prize, along with the admiration and
-                  respect of their peers.
-                  In addition to the thrilling competition, the event was a celebration of camaraderie,
-                  featuring a lively atmosphere filled with delicious food, refreshing drinks, and vibrant
-                  entertainment.<br /><br />
-                  The collaboration between Finex Healthcare and Elmarino Sport Club brought the
-                  community together, reflecting their shared commitment to health and wellness.
-                  This tournament marks Finex Healthcare&#39;s ongoing dedication to promoting health
-                  through sports and community engagement.
-                  For participants, the tournament was not only a celebration of the game but also a way
-                  to honour the legacy of a loved one.<br /><br />
-                  El-Marino is a Lagos-based sports and social club that promotes physical development
-                  of members and healthy living through participation in sporting activities.
-                  It is a non-religious, multicultural and non-governmental club that also develops and
-                  contributes to charitable causes in various parts of the country. The economic
-                  empowerment of members is also key to the club.
-                  Finex healthcare sponsored the 2022 edition of Alukimba Tournament and was co-
-                  sponsored the 2023 edition.</p>
+                <div className="" data-aos="fade-in">
+                  <p>The inaugural edition of Basil Offor Table Tennis Tournament, hosted by Finex
+                    Healthcare in partnership with Elmarino Sport Club, was a tremendous success and a
+                    delight to sports lovers.
+                    Held on Monday, September 16th, the event attracted a large and enthusiastic crowd of
+                    participants and spectators, celebrating both the spirit of competition and community.</p>
+                  <p>
+                    Sponsored by Chris Anazia, the tournament was a heartfelt tribute to the late Basil
+                    Offor, a cherished member of the community. The tournament showcased high levels of
+                    skill, as participants’ demonstrated sportsmanship and determination on the tables.
+                    The top three finishers of the tournament were Anthony Akamagwuna, Uche Ekwueme,
+                    and Irikhefe Ekaekete. Each winner received a cash prize, along with the admiration and
+                    respect of their peers.
+                    In addition to the thrilling competition, the event was a celebration of camaraderie,
+                    featuring a lively atmosphere filled with delicious food, refreshing drinks, and vibrant
+                    entertainment.</p>
+                  <p>
+                    The collaboration between Finex Healthcare and Elmarino Sport Club brought the
+                    community together, reflecting their shared commitment to health and wellness.
+                    This tournament marks Finex Healthcare&#39;s ongoing dedication to promoting health
+                    through sports and community engagement.
+                    For participants, the tournament was not only a celebration of the game but also a way
+                    to honour the legacy of a loved one.</p>
+                  <p>
+                    El-Marino is a Lagos-based sports and social club that promotes physical development
+                    of members and healthy living through participation in sporting activities.
+                    It is a non-religious, multicultural and non-governmental club that also develops and
+                    contributes to charitable causes in various parts of the country. The economic
+                    empowerment of members is also key to the club.
+                    Finex healthcare sponsored the 2022 edition of Alukimba Tournament and was co-
+                    sponsored the 2023 edition.</p>
+                </div>
               </div>
               <div className="col-lg-6">
                 <div className="">
