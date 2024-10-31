@@ -9,7 +9,10 @@ import { Yellowtail } from "next/font/google";
 import Footer from "@/components/footer/Footer";
 import Testimonial from "@/components/testimonial/Testimonial";
 import Contact from "@/components/contact/Contact";
+<<<<<<< HEAD
 import SportSwiper from "@/components/swiper/SportSwiper";
+=======
+>>>>>>> f849155d5e9d304e30969d2ed1cbcceb29201adc
 const yellowtail = Yellowtail({ subsets: ['latin'], weight: '400', display: 'swap' })
 
 export default function Home() {
@@ -37,11 +40,19 @@ export default function Home() {
                   <Image src='/pics/about.png' height={70} width={70} alt="" />
                   <h2 className={`${yellowtail.className} fw-bold about-us`}>About Us</h2>
                 </div> */}
+<<<<<<< HEAD
                 <h3 className="fs-1 fw-bold title-color" data-aos="fade-up">Finex Healthcare Analytics and Informatics LLC</h3>
                 <p data-aos="fade-up">Finex Healthcare Analytics and Informatics Consult LLC is a firm that focuses on the analysis of big and difficult health data. Our aim is to enhance and increase the efficacy of the process of healthcare delivery, liaising with healthcare providers and patients in managing cost of care delivery etc. The primary focus is using patient historical data and findings to make intelligent and informed decisions. The end product is to apply various visualization tools to support our services and results. </p>
                 <div>
                   {/* <h3>About Us</h3> */}
                   <h2 className={`${yellowtail.className} fw-bold about-uss title-color`} data-aos="fade-up">About Us</h2>
+=======
+                <h3 className="fs-1 fw-bold" data-aos="fade-up">Finex Healthcare Analytics and Informatics LLC</h3>
+                <p data-aos="fade-up">Finex Healthcare Analytics and Informatics Consult LLC is a firm that focuses on the analysis of big and difficult health data. Our aim is to enhance and increase the efficacy of the process of healthcare delivery, liaising with healthcare providers and patients in managing cost of care delivery etc. The primary focus is using patient historical data and findings to make intelligent and informed decisions. The end product is to apply various visualization tools to support our services and results. </p>
+                <div>
+                  {/* <h3>About Us</h3> */}
+                  <h2 className={`${yellowtail.className} fw-bold about-uss`} data-aos="fade-up">About Us</h2>
+>>>>>>> f849155d5e9d304e30969d2ed1cbcceb29201adc
                   <p data-aos="fade-up">We are a new and developing wellness, market research, strategy and consulting company with knowledge to build the skills required to navigate growing level of healthcare data. We liaise with healthcare facilities to solve their staffing needs. Here are some of the benefits of our healthcare analysis:</p>
                 </div>
                 <div className="d-sm-flex d-block gap-5">
@@ -69,6 +80,7 @@ export default function Home() {
                 </div>
 
 
+
               </div>
             </div>
           </div>
@@ -92,6 +104,7 @@ export default function Home() {
         <div className="container  py-5 my-5">
           <h1 className={`${yellowtail.className} fw-bold title-color text-center`} data-aos="zoom-in">Finex Services</h1>
           <div className="row g-3 mt-4">
+<<<<<<< HEAD
             <div className="col-12 col-lg-6" data-aos="fade-down">
               <div className="bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-4 align-items-center">
                 <Image src="/pics/chart4.png" height={70} width={70} alt="" />
@@ -103,20 +116,45 @@ export default function Home() {
 
             <div className="col-12 col-lg-6" data-aos="fade-up">
               <div className=" bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-4 align-items-center">
+=======
+            <div className="col-12 col-md-3" data-aos="fade-down">
+              <div className="bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-5 align-items-center">
+                <Image src="/pics/chart4.png" height={70} width={70} alt="" />
+
+                <h3 className="m-0 fs-4 fw-bold text-center">Patient Care Analytics</h3>
+                {/* <p>We partner and support healthcare facilities and organizations to deliver better quality care to client's residents. Through careful analysis, we can identify areas for improvement, enhance patient outcomes, and optimize resource utilization. </p> */}
+                <p>We partner and support healthcare facilities and organizations to deliver better quality care to client's residents.</p>
+                {/* <button className="m-0 btn border rounded-pill">Read More</button> */}
+              </div>
+            </div>
+
+            <div className="col-12 col-md-3" data-aos="fade-up">
+              <div className=" bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-5 align-items-center">
+>>>>>>> f849155d5e9d304e30969d2ed1cbcceb29201adc
 
                 <Image src="/pics/trained.png" height={70} width={70} alt="" />
 
                 <h3 className="m-0 fs-4 text-center fw-bold">Healthcare Staffing and Planning</h3>
                 <p>We recruit qualified and licensed healthcare professionals for our clients. These professionals are qualified by virtue of their education, training, licensure/regulation and perform professional service within their scope of practice.</p>
+<<<<<<< HEAD
 
               </div>
             </div>
             <div className="col-12 col-lg-6" data-aos="fade-up">
               <div className="bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-4 align-items-center">
+=======
+                {/* <button className="m-0 btn border rounded-pill">Read More</button> */}
+
+              </div>
+            </div>
+            <div className="col-12 col-md-3" data-aos="fade-up">
+              <div className="bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-5 align-items-center">
+>>>>>>> f849155d5e9d304e30969d2ed1cbcceb29201adc
 
                 <Image src="/pics/visualization.png" height={70} width={70} alt="" />
 
                 <h3 className="m-0 fs-4 text-center fw-bold">Visualization of Health Data</h3>
+<<<<<<< HEAD
                 <div className="">
                   <p className="mb-0m pb-0m bordern">Healthcare data visualization is the transformation of patients/residents raw data into visuals though the use of simple graphic, such as tables, charts, plots, dashboards, info graphics.</p>
                   <p> It displays information, communicate difficult data connections and data-driven insights in a manner that is easy to understand. We also apply simple statistical analysis to draw conclusion.</p>
@@ -130,6 +168,23 @@ export default function Home() {
 
                 <h3 className="m-0 fs-4 text-center fw-bold">Sports Promotion, Engagement and Education (SPEED)</h3>
                 <div className="">
+=======
+                <p>Healthcare data visualization is the transformation of patients/residents raw data into visuals though the use of simple graphic, such as tables, charts, plots, dashboards, info graphics.<br /><br /> It displays information, communicate difficult data connections and data-driven insights in a manner that is easy to understand. We also apply simple statistical analysis to draw conclusion.</p>
+                {/* <p>We use analytical and visualization tools to analyze patients raw data generated from various sources, represent them using visual graphics like charts, plots, dashboard, infographics and tables, then draw conclusions based on statistics. </p> */}
+                {/* <button className="m-0 btn border rounded-pill">Read More</button> */}
+
+              </div>
+            </div>
+            <div className="col-12 col-md-3" data-aos="fade-down">
+              <div className="bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-5 align-items-center">
+
+                <Image src="/pics/sports.png" height={70} width={70} alt="" />
+
+                <h3 className="m-0 fs-4 text-center fw-bold">Sports Promotion and Engagement</h3>
+                <p>We encourage physical exercises and wellness through active participation and promotion of sporting activities. We optimise and utilize different tools, strategies and resources to promote a product that will generate additional demand. <br /><br /> To achieve this, we identify our potential customers, decide on promotion budget, and select the product to promote. We also identify, partner and affilate with non-governmental organization(NGO) to sponsor and facilitate sporting engagements to enable the general public derive maximum benefits. </p>
+                {/* <p>At Finex, we are uniquely positioned to also engage our patients in sports activities and also enhance their overall fitness in sports experience. We employ personalized strategies to tailor personalized services to the specific interests of our clients.</p> */}
+                {/* <button className="m-0 btn border rounded-pill">Read More</button> */}
+>>>>>>> f849155d5e9d304e30969d2ed1cbcceb29201adc
 
                   <p>We encourage education, physical exercises and wellness through active participation in
                     sports and promotion of sporting activities. We optimize and utilize different tools,
@@ -149,6 +204,7 @@ export default function Home() {
           </div>
         </div>
 
+<<<<<<< HEAD
         <section className="bg-white py-5">
           <div className="container">
             <div className="row align-items-center">
@@ -234,6 +290,8 @@ export default function Home() {
           </div>
         </section>
 
+=======
+>>>>>>> f849155d5e9d304e30969d2ed1cbcceb29201adc
 
 
         <section className="container py-5 data-driven" data-aos="zoom-in">
@@ -242,7 +300,11 @@ export default function Home() {
             <p className="text-center">
               <span className="quote-up   d-none d-md-block"><Image src="/pics/quote.png" className="" height={40} width={40} alt="" /></span>
               <span className="quote-down d-none d-md-block"><Image src="/pics/quote.png" className="" height={40} width={40} alt="" /></span>
+<<<<<<< HEAD
               Finex Healthcare Analytics was formed and owned by a seasoned social change engineer Chris Anazia in March 2022. He holds a B.sc degree in Mathematics, Economics and M.sc degree in Applied Economics. He is passionate about health economics and public health and how to apply digital technology to improve healthcare delivery worldwide.
+=======
+              Finex Healthcare Analytics was formed and owned by a seasoned social change engineer Chris Anazia in March 2022. He holds a B.sc degree in Mathematics, Economics and M.sc degree in Applied Economics. He is currently pursuing a Ph.D. degree in Public Health. He is passionate about health economics and public health and how to apply digital technology to improve healthcare delivery worldwide.
+>>>>>>> f849155d5e9d304e30969d2ed1cbcceb29201adc
               The business was approved by the office of the Secretary of State of California on March 17th, 2022.
             </p>
           </div>
@@ -333,34 +395,54 @@ export default function Home() {
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                       <div className="accordion-body">
+<<<<<<< HEAD
                         How do we collect data?
                         We employ different techniques, strategies and apply wide range of analytic tools to
                         collect and analyze data.
+=======
+                        We impolore various approaches in collecting patients data for analysis.
+>>>>>>> f849155d5e9d304e30969d2ed1cbcceb29201adc
                       </div>
                     </div>
                   </div>
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingTwo">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+<<<<<<< HEAD
                         How long does it take to collect data?
+=======
+                        How Long Does The Process Take?
+>>>>>>> f849155d5e9d304e30969d2ed1cbcceb29201adc
                       </button>
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                       <div className="accordion-body">
+<<<<<<< HEAD
                         The duration varies due to individual differences and complexities. Again, the
                         techniques and tools applied may influence data collection.
+=======
+                        The duration of the process varies due to the requirements necessary for the analysis.
+>>>>>>> f849155d5e9d304e30969d2ed1cbcceb29201adc
                       </div>
                     </div>
                   </div>
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingThree">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+<<<<<<< HEAD
                         Do I need to be present physically before data is collected?
+=======
+                        Must I Be There Physically?
+>>>>>>> f849155d5e9d304e30969d2ed1cbcceb29201adc
                       </button>
                     </h2>
                     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                       <div className="accordion-body">
+<<<<<<< HEAD
                         No, however certain circumstances will require you to be available in person.
+=======
+                        It depends on the type of analytics, while some require physical presence, others dont.
+>>>>>>> f849155d5e9d304e30969d2ed1cbcceb29201adc
                       </div>
                     </div>
                   </div>
