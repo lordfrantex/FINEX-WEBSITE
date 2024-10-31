@@ -3,7 +3,7 @@ import Navbar from "@/components/header/Navbar";
 import Hero from "@/components/header/Hero";
 import Image from 'next/image';
 import Link from 'next/link'
-import { FaChartColumn, FaHeartPulse, FaWhatsapp } from "react-icons/fa6";
+import { FaChartColumn, FaCircleCheck, FaHeartPulse, FaWhatsapp } from "react-icons/fa6";
 import TextTitle from "@/components/text-title/TextTitle";
 import { Yellowtail } from "next/font/google";
 import Footer from "@/components/footer/Footer";
@@ -153,9 +153,16 @@ export default function Home() {
           <div className="container">
             <div className="row align-items-center">
 
-              <div className="col-md-6 mt text-center">
+              <div className="col-md-6 mt text-center text-lg-start">
                 <h3 className="fw-bold">Research</h3>
-                <Link className="text-decoration-underline text-primary" href='https://digitalcommons.usu.edu/gradreports/232/'>Comparative analysis of healthcare expenditures in the United States and Canada.</Link>
+                <div className="d-flex gap-2">
+                  <FaCircleCheck />
+                  <Link className="text-decoration-underline text-primary" href='https://digitalcommons.usu.edu/gradreports/232/'>Comparative analysis of healthcare expenditures in the United States and Canada.</Link>
+                </div>
+                <div className="d-flex mt-3 gap-2">
+                  <FaCircleCheck />
+                  <Link className="text-decoration-underline text-primary" href='https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1216&context=gradreports&httpsredir=1&referer='>USU THESIS SITE.</Link>
+                </div>
               </div>
               <div className="col-md-6 mt">
                 <div className="position-relative">
@@ -168,7 +175,7 @@ export default function Home() {
         </section>
 
         <section className="sport-engagement">
-          <div className="container m-5">
+          <div className="container my-5">
 
             <h2 data-aos="fade-up" className={`${yellowtail.className} fw-bold text-center title-color mb-5`}>Sports Promotion and Engagement</h2>
 
@@ -204,7 +211,7 @@ export default function Home() {
                     contributes to charitable causes in various parts of the country. The economic
                     empowerment of members is also key to the club.
                     Finex healthcare sponsored the 2022 edition of Alukimba Tournament and was co-
-                    sponsored the 2023 edition.</p>
+                    sponsor in 2023 and 2024 edition respectively.</p>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -233,7 +240,7 @@ export default function Home() {
             <p className="text-center">
               <span className="quote-up   d-none d-md-block"><Image src="/pics/quote.png" className="" height={40} width={40} alt="" /></span>
               <span className="quote-down d-none d-md-block"><Image src="/pics/quote.png" className="" height={40} width={40} alt="" /></span>
-              Finex Healthcare Analytics was formed and owned by a seasoned social change engineer Chris Anazia in March 2022. He holds a B.sc degree in Mathematics, Economics and M.sc degree in Applied Economics. He is currently pursuing a Ph.D. degree in Public Health. He is passionate about health economics and public health and how to apply digital technology to improve healthcare delivery worldwide.
+              Finex Healthcare Analytics was formed and owned by a seasoned social change engineer Chris Anazia in March 2022. He holds a B.sc degree in Mathematics, Economics and M.sc degree in Applied Economics. He is passionate about health economics and public health and how to apply digital technology to improve healthcare delivery worldwide.
               The business was approved by the office of the Secretary of State of California on March 17th, 2022.
             </p>
           </div>
