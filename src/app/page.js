@@ -161,7 +161,9 @@ export default function Home() {
                 </div>
                 <div className="d-flex mt-3 gap-2">
                   <FaCircleCheck />
-                  <Link className="text-decoration-underline text-primary" href='https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1216&context=gradreports&httpsredir=1&referer='>USU THESIS SITE.</Link>
+                  <Link className="text-decoration-underline text-primary" href='https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1216&context=gradreports&httpsredir=1&referer='>
+                    https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1216&context=gradreports&httpsredir=1&referer=
+                  </Link>
                 </div>
               </div>
               <div className="col-md-6 mt">
