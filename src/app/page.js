@@ -69,11 +69,10 @@ export default function Home() {
                 </div>
 
 
-
               </div>
-            </div >
-          </div >
-        </div >
+            </div>
+          </div>
+        </div>
 
         <section className="container py-5 data-driven" data-aos="zoom-in">
           <div className="col-12 col-md-8 mx-auto fst-italic">
@@ -86,10 +85,10 @@ export default function Home() {
             </p>
           </div>
         </section>
-      </section >
+      </section>
 
       {/* Our Services */}
-      < section className="services" id="services" >
+      <section className="services" id="services">
         <div className="container  py-5 my-5">
           <h1 className={`${yellowtail.className} fw-bold title-color text-center`} data-aos="zoom-in">Finex Services</h1>
           <div className="row g-3 mt-4">
@@ -110,8 +109,8 @@ export default function Home() {
                 <h3 className="m-0 fs-4 text-center fw-bold">Healthcare Staffing and Planning</h3>
                 <p>We recruit qualified and licensed healthcare professionals for our clients. These professionals are qualified by virtue of their education, training, licensure/regulation and perform professional service within their scope of practice.</p>
 
-              </div >
-            </div >
+              </div>
+            </div>
             <div className="col-12 col-lg-6" data-aos="fade-up">
               <div className="bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-4 align-items-center">
 
@@ -122,8 +121,8 @@ export default function Home() {
                   <p className="mb-0m pb-0m bordern">Healthcare data visualization is the transformation of patients/residents raw data into visuals though the use of simple graphic, such as tables, charts, plots, dashboards, info graphics.</p>
                   <p> It displays information, communicate difficult data connections and data-driven insights in a manner that is easy to understand. We also apply simple statistical analysis to draw conclusion.</p>
                 </div>
-              </div >
-            </div >
+              </div>
+            </div>
             <div className="col-12 col-lg-6" data-aos="fade-down">
               <div className="bg-white service-item d-flex flex-column justify-content-center p-3 gap-3 rounded-4 align-items-center">
 
@@ -147,8 +146,8 @@ export default function Home() {
 
 
 
-          </div >
-        </div >
+          </div>
+        </div>
 
         <section className="bg-white py-5">
           <div className="container">
@@ -243,17 +242,17 @@ export default function Home() {
             <p className="text-center">
               <span className="quote-up   d-none d-md-block"><Image src="/pics/quote.png" className="" height={40} width={40} alt="" /></span>
               <span className="quote-down d-none d-md-block"><Image src="/pics/quote.png" className="" height={40} width={40} alt="" /></span>
-              Finex Healthcare Analytics was formed and owned by a seasoned social change engineer Chris Anazia in March 2022. He holds a B.sc degree in Mathematics, Economics and M.sc degree in Applied Economics.He is passionate about health economics and public health and how to apply digital technology to improve healthcare delivery worldwide.
+              Finex Healthcare Analytics was formed and owned by a seasoned social change engineer Chris Anazia in March 2022. He holds a B.sc degree in Mathematics, Economics and M.sc degree in Applied Economics. He is passionate about health economics and public health and how to apply digital technology to improve healthcare delivery worldwide.
               The business was approved by the office of the Secretary of State of California on March 17th, 2022.
-            </p >
-          </div >
-        </section >
-      </section >
+            </p>
+          </div>
+        </section>
+      </section>
 
 
 
       {/* Why Choose Us */}
-      < section className="choose-us" >
+      <section className="choose-us">
         <div className="container">
           <div className="row align-items-center py-5">
             <div className="col-xl-6">
@@ -310,11 +309,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </ >
+      </section>
 
 
       {/* FAQ */}
-      < section className="faq" id="faq" >
+      <section className="faq" id="faq">
         <div className="container  my-0">
           <div className="row g-5 align-items-center py-5">
             <div className="col-12 col-md-6">
@@ -334,51 +333,51 @@ export default function Home() {
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                       <div className="accordion-body">
-                        How do we collect data ?
+                        How do we collect data?
                         We employ different techniques, strategies and apply wide range of analytic tools to
                         collect and analyze data.
-                      </div >
-                    </div >
-                  </div >
+                      </div>
+                    </div>
+                  </div>
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingTwo">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        How long does it take to collect data ?
-                      </button >
-                    </h2 >
+                        How long does it take to collect data?
+                      </button>
+                    </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                       <div className="accordion-body">
-                        The duration varies due to individual differences and complexities.Again, the
+                        The duration varies due to individual differences and complexities. Again, the
                         techniques and tools applied may influence data collection.
-                      </div >
-                    </div >
-                  </div >
+                      </div>
+                    </div>
+                  </div>
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingThree">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Do I need to be present physically before data is collected ?
-                      </button >
-                    </h2 >
+                        Do I need to be present physically before data is collected?
+                      </button>
+                    </h2>
                     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                       <div className="accordion-body">
                         No, however certain circumstances will require you to be available in person.
-                      </div >
-                    </div >
-                  </div >
-                </div >
-              </div >
-            </div >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="col-12 col-md-6 ">
               <div className="">
                 <Image src='/pics/2147767270-removebg-preview.png' className="faq_image d-block m-auto" height={400} width={400} alt="" />
               </div>
             </div>
-          </div >
-        </div >
-      </section >
+          </div>
+        </div>
+      </section>
 
       {/* Work Process */}
-      < section className="process" >
+      <section className="process">
         <div className="container my-5 ">
           <h2 className={`${yellowtail.className} fw-bold title-color text-center `} data-aos="fade-up">Finex Work Process</h2>
 
@@ -441,33 +440,33 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </ >
+      </section>
 
       {/* Team Section */}
-      < section className="team" id="team" data - aos="zoom-in" >
-      <div className="container ">
-        <div className="team-heading text-center">
-          <h3 className={`${yellowtail.className} fs-2 fw-bold`}>Our Team</h3>
-          <h2 className="fw-bold ">Meet Finex professional Team</h2>
-        </div>
-        <div className="row g-4 justify-content-center">
-          <div className="col-md-3 position-relative">
-            <div className="text-center team-card bg-white rounded-4 p-3">
-              <Image src='/pics/4086652.png' alt="" width={100} height={100} className="rounded-pill" />
-              <p>Mr. Chris Anazia</p>
-              <p>Founder/Manager</p>
-            </div>
-
+      <section className="team" id="team" data-aos="zoom-in">
+        <div className="container ">
+          <div className="team-heading text-center">
+            <h3 className={`${yellowtail.className} fs-2 fw-bold`}>Our Team</h3>
+            <h2 className="fw-bold ">Meet Finex professional Team</h2>
           </div>
-          <div className="col-md-3 ">
-            <div className="text-center team-card bg-white rounded-4 p-3">
-              <Image src='/pics/9967199.png' alt="" width={100} height={100} className="rounded-pill" />
-              <p>Mrs. Ijeoma Anazia</p>
-              <p>Managing partner</p>
-            </div>
+          <div className="row g-4 justify-content-center">
+            <div className="col-md-3 position-relative">
+              <div className="text-center team-card bg-white rounded-4 p-3">
+                <Image src='/pics/4086652.png' alt="" width={100} height={100} className="rounded-pill" />
+                <p>Mr. Chris Anazia</p>
+                <p>Founder/Manager</p>
+              </div>
 
-          </div>
-          {/* <div className="col-md-3 ">
+            </div>
+            <div className="col-md-3 ">
+              <div className="text-center team-card bg-white rounded-4 p-3">
+                <Image src='/pics/9967199.png' alt="" width={100} height={100} className="rounded-pill" />
+                <p>Mrs. Ijeoma Anazia</p>
+                <p>Managing partner</p>
+              </div>
+
+            </div>
+            {/* <div className="col-md-3 ">
               <div className="text-center team-card bg-white rounded-4 p-3">
                 <Image src='/pics/4086652.png' alt="" width={100} height={100} className="rounded-pill" />
                 <p>Mr. Thomson Mary</p>
@@ -475,7 +474,7 @@ export default function Home() {
               </div>
 
             </div> */}
-          {/* <div className="col-md-3 ">
+            {/* <div className="col-md-3 ">
               <div className="text-center team-card bg-white rounded-4 p-3">
                 <Image src='/pics/11696670.png' alt="" width={100} height={100} className="rounded-pill" />
                 <p>Mr. Thomson Mary</p>
@@ -483,18 +482,18 @@ export default function Home() {
               </div>
 
             </div> */}
+          </div>
         </div>
-      </div>
-    </ >
+      </section>
 
 
-    {/* get in touch */ }
-  < section className="contact-us" id="contact" data - aos="fade-up" >
-    <Contact />
-      </ >
+      {/* get in touch */}
+      <section className="contact-us" id="contact" data-aos="fade-up">
+        <Contact />
+      </section>
 
       <Testimonial />
       <Footer />
-    </main >
+    </main>
   );
 }
