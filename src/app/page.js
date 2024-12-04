@@ -43,7 +43,7 @@ export default function Home() {
                 <div>
                   {/* <h3>About Us</h3> */}
                   <h2 className={`${yellowtail.className} fw-bold about-uss title-color`} data-aos="fade-up">About Us</h2>
-                  <p>At Finex Healthcare, we abide by a risk compliance policy. We strictly follow leading industry established guidelines and procedures designed to identify, assess, and mitigate potential risks while ensuring adherence to relevant laws and regulations; essentially, we manage risks to remain compliant with industry standards. We structure our business and aim to align our business objectives with legal and ethical standards by proactively identifying, assessing, and mitigating potential risks. We adhere and comply to relevant regulations such as Health Insurance Portability and Accountability Act, Payment Card Industry Data Security Standard, and General Data Protection Regulation (HIPAA, PCI DSS, GDPR) through established policies and procedures, essentially acting as a safeguard against potential legal, financial, and reputational damages
+                  <p>At Finex Healthcare, we abide by a risk compliance policy. We strictly follow leading industry established guidelines and procedures designed to identify, assess, and mitigate potential risks while ensuring adherence to relevant laws and regulations; essentially, we manage risks to remain compliant with industry standards. We structure our business and aim to align our business objectives with legal and ethical standards by proactively identifying, assessing, and mitigating potential risks.<br /> We adhere and comply to relevant regulations such as Health Insurance Portability and Accountability Act, Payment Card Industry Data Security Standard, and General Data Protection Regulation (HIPAA, PCI DSS, GDPR) through established policies and procedures, essentially acting as a safeguard against potential legal, financial, and reputational damages
                     by maintaining a holistic view of organizational operations and decision-making across different departments. </p>
                   {/* <p data-aos="fade-up">We are a new and developing wellness, market research, strategy and consulting company with knowledge to build the skills required to navigate growing level of healthcare data. We liaise with healthcare facilities to solve their staffing needs. Here are some of the benefits of our healthcare analysis:</p> */}
                 </div>
@@ -84,6 +84,8 @@ export default function Home() {
                   <h3>Finex Healthcare Analytics and Informatics compliance Risk Assessment</h3>
                   <p>
                     High-quality healthcare helps prevent diseases and improve quality of life. Healthy People 2030 focus on improving healthcare quality and making sure all people get the health care services they need. In healthcare, risk, compliance, and regulations significantly impact the quality and safety of resident care by ensuring healthcare providers adhere to legal standards, protecting patient privacy, and minimizing potential legal and financial consequences for non-compliance.
+                  </p>
+                  <p>
                     Finex Healthcare ultimately aims to deliver high-quality care while mitigating risks like data breaches and medical errors; essentially, following regulations helps Finex healthcare avoid penalties, maintain patient trust, and operate ethically.
                   </p>
                 </div>
@@ -240,6 +242,12 @@ export default function Home() {
                   <FaCircleCheck />
                   <Link className="text-decoration-underline text-primary" href='https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1216&context=gradreports&httpsredir=1&referer='>
                     https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1216&context=gradreports&httpsredir=1&referer=
+                  </Link>
+                </div>
+                <div className="d-flex mt-3 gap-2">
+                  <FaCircleCheck />
+                  <Link className="text-decoration-underline text-primary" href='https://theeagleonline.com.ng/new-winner-emerges-in-el-marino-alukimba-table-tennis-tournament/'>
+                    https://theeagleonline.com.ng/new-winner-emerges-in-el-marino-alukimba-table-tennis-tournament/
                   </Link>
                 </div>
               </div>
@@ -546,7 +554,7 @@ export default function Home() {
 
 
       {/* Team Section */}
-      <section className="team" id="team" data-aos="zoom-in" >
+      {/* <section className="team" id="team" data-aos="zoom-in" >
         <div className="container ">
           <div className="team-heading text-center">
             <h3 className={`${yellowtail.className} fs-2 fw-bold`}>Our Team</h3>
@@ -572,7 +580,7 @@ export default function Home() {
 
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Resume />
 

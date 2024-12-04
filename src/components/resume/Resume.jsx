@@ -2,7 +2,7 @@
 
 import { useEffect } from "react"
 import './resume.scss'
-import { FaCircleCheck, FaHandshake, FaLightbulb, FaSchool, FaVectorSquare } from "react-icons/fa6"
+import { FaCertificate, FaCircleCheck, FaHandshake, FaIdBadge, FaLightbulb, FaSchool, FaVectorSquare } from "react-icons/fa6"
 
 const Resume = () => {
 
@@ -60,10 +60,10 @@ const Resume = () => {
                         <span>Experience</span> <span className='fill active'></span></button>
                     <button className='navRef' data-target='qualification'><FaVectorSquare />
                         <span>Qualifications</span> <span className='fill'></span></button>
-                    <button className='navRef' data-target='proficiency'><FaVectorSquare />
+                    <button className='navRef' data-target='proficiency'><FaIdBadge />
                         <span>Technical Proficiency</span> <span className='fill'></span></button>
 
-                    <button className='navRef' data-target='certifications'><FaVectorSquare />
+                    <button className='navRef' data-target='certifications'><FaCertificate />
                         <span>License & Certifications</span> <span className='fill'></span></button>
                     <button className='navRef' data-target='membership'>
                         <FaLightbulb />
