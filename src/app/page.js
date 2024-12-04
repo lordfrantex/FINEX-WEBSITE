@@ -381,7 +381,7 @@ export default function Home() {
         <div className="container my-5 ">
           <h2 className={`${yellowtail.className} fw-bold title-color text-center `} data-aos="fade-up">Finex Work Process</h2>
 
-          <h3 className="text-center display-6  fw-bold" data-aos="fade-up">Lets see how we work</h3>
+          <h3 className="text-center display-6  fw-bold" data-aos="fade-up">Lets see how we work </h3>
           <div className="row justify-content-center" data-aos="fade-up">
             <div className="col-lg-3 col-12 my-3">
               <div className=" p-3 text-center rounded-3 process-label">
@@ -442,31 +442,206 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="team" id="team" data-aos="zoom-in">
-        <div className="container ">
-          <div className="team-heading text-center">
-            <h3 className={`${yellowtail.className} fs-2 fw-bold`}>Our Team</h3>
-            <h2 className="fw-bold ">Meet Finex professional Team</h2>
+      <section className="resume" id="resume">
+        <div class="title">
+          <h2>My Resume</h2>
+        </div>
+        <div className="container">
+          <div class="resume-nav" id='navRefParent'>
+            <button class='navRef' data-target='education'> <i class="material-icons">school</i>
+              <span>Education</span> <span class='fill active'></span></button>
+            <button class='navRef' data-target='experience'><i class="material-icons">handshake</i>
+              <span>Experience</span> <span class='fill'></span></button>
+            <button class='navRef' data-target='qualification'> <i class="material-icons">verified</i>
+              <span>Certifications</span> <span class='fill'></span></button>
+            <button class='navRef' data-target='skills'>
+              <i class="material-icons">lightbulb</i>
+              <span>Skill Set</span> <span class='fill'></span></button>
+
+
           </div>
-          <div className="row g-4 justify-content-center">
-            <div className="col-md-3 position-relative">
-              <div className="text-center team-card bg-white rounded-4 p-3">
-                <Image src='/pics/4086652.png' alt="" width={100} height={100} className="rounded-pill" />
-                <p>Mr. Chris Anazia</p>
-                <p>Founder/Manager</p>
+
+          <div id="resume-content" class='resume-content' id='contentRef'>
+            <div class="content-item" id='education'>
+              <div class="education" id='education'>
+                <div class="">
+                  <span>
+                    <i class="fas fa-check-circle"></i>
+                  </span>
+                  <div class="school">
+                    <p>Federal University of Technology, Akure, Nigeria.</p>
+                    <p>Bachalor of Technology Cyber Security</p>
+                  </div>
+                  <div class="date">
+                    <p>2019-2024</p>
+                  </div>
+                </div>
+                <div class="">
+                  <span>
+                    <i class="fas fa-check-circle"></i>
+
+                  </span>
+                  <div class="school">
+                    <p>High School</p>
+                    <p>Federal Science and Technical College, Uromi, Nigeria.</p>
+                  </div>
+                  <div class="date">
+                    <p>2013-2019</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="content-item" id='experience'>
+              <div class="work" id='works'>
+                <div class="">
+                  <div class="">
+                    <h3> <i class="fas fa-check-circle" style="margin-right: 12px;"></i> Frontend
+                      Developer <span>(<a href="https://www.mohztec.com">mohztec.com</a>)</span></h3>
+                    <p style="color: #FD6F00;">Contract</p>
+
+                    <ul>
+                      <li> Implemented front-end frameworks such as ReactJS, NextJS and BootstrapCSS
+                        to create
+                        dynamic user interfaces.</li>
+                      <li> Worked closely with UI/UX and backend develpoers to integrate REST API and
+                        to deliver a pixel perefect figma design.</li>
+                      <li> Utilized React context API for state management for managing application
+                        data
+                        and state.</li>
+                      <li> Conducted thorough testing and debugging to ensure smooth functionality and
+                        user experience across different browsers and devices.
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+
+                <div class="date">
+                  <p>2020-Present</p>
+                </div>
               </div>
 
-            </div>
-            <div className="col-md-3 ">
-              <div className="text-center team-card bg-white rounded-4 p-3">
-                <Image src='/pics/9967199.png' alt="" width={100} height={100} className="rounded-pill" />
-                <p>Mrs. Ijeoma Anazia</p>
-                <p>Managing partner</p>
+
+              <div class="">
+                <div class="">
+                  <h3> <i class="fas fa-check-circle" style="margin-right: 12px;"></i> Frontend
+                    Developer <span>(<a
+                      href="https://www.finexhealth.com">finexhealth.com</a>)</span></h3>
+
+                  <p style="color: #FD6F00;">Contract</p>
+                  <ul>
+                    <li> Worked closely with the companies’ stakeholders ensuring an accurate
+                      translation of their companies needs into a software product, resulting in
+                      about 45% increase in productivity</li>
+                    <li>Built the entire frontend project with modern technologies such as HTML,
+                      React JS, Bootstrap CSS</li>
+                    <li> Utilized React context API for state management for managing application
+                      data
+                      and state.</li>
+                    <li> Conducted thorough testing and debugging to ensure smooth functionality and
+                      user experience across different browsers and devices.
+                    </li>
+                  </ul>
+                </p>
               </div>
 
+              <div class="date">
+                <p>2023-Present</p>
+              </div>
             </div>
-            {/* <div className="col-md-3 ">
+
+          </div>
+        </div>
+        <div class="content-item" id='qualification'>
+          <div class="qualification">
+
+            <div class="">
+              <div class="">
+                <img src="./images/HNG Internship 11_Franklyn Kanebi _certificate-1.png" alt="">
+              </div>
+            </div>
+
+            <div class="">
+              <div class="">
+                <img src="./images/Coursera DCYN5DQ7A7GR-1.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="content-item" id='skills'>
+          <div class="skills">
+            <div class="">
+              <h4>Technical Skills: </h4><br />
+              <div class="technical-skills">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Tailwind css</span>
+                <span>Typescript</span>
+                <span>Nextjs</span>
+                <span>Shadcn UI</span>
+                <span>Reactjs</span>
+                <span>JavaScript</span>
+                <span>Scss/Sass</span>
+                <span>Bootstrap css</span>
+                <span>Redux Toolkit</span>
+                <span>REST API</span>
+                <span>Firebase</span>
+                <span>Git</span>
+                <span>Github</span>
+                <span>Prisma ORM</span>
+                <span>Expressjs</span>
+                <span>Nodejs</span>
+                <span>Git</span>
+                <span>Responsive design</span>
+              </div>
+            </div>
+            <div class="">
+              <h4>Soft Skills: </h4><br />
+              <div class="soft-skills">
+                <span>Communication</span>
+                <span>Teamwork</span>
+                <span>Critical Thinking</span>
+                <span>Creativity</span>
+                <span>Time Management</span>
+                <span>Problem Solving</span>
+                <span>Debugging</span>
+                <span>Adaptability</span>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+      </section >
+
+    {/* Team Section */ }
+    < section className = "team" id = "team" data - aos="zoom-in" >
+      <div className="container ">
+        <div className="team-heading text-center">
+          <h3 className={`${yellowtail.className} fs-2 fw-bold`}>Our Team</h3>
+          <h2 className="fw-bold ">Meet Finex professional Team</h2>
+        </div>
+        <div className="row g-4 justify-content-center">
+          <div className="col-md-3 position-relative">
+            <div className="text-center team-card bg-white rounded-4 p-3">
+              <Image src='/pics/4086652.png' alt="" width={100} height={100} className="rounded-pill" />
+              <p>Mr. Chris Anazia</p>
+              <p>Founder/Manager</p>
+            </div>
+
+          </div>
+          <div className="col-md-3 ">
+            <div className="text-center team-card bg-white rounded-4 p-3">
+              <Image src='/pics/9967199.png' alt="" width={100} height={100} className="rounded-pill" />
+              <p>Mrs. Ijeoma Anazia</p>
+              <p>Managing partner</p>
+            </div>
+
+          </div>
+          {/* <div className="col-md-3 ">
               <div className="text-center team-card bg-white rounded-4 p-3">
                 <Image src='/pics/4086652.png' alt="" width={100} height={100} className="rounded-pill" />
                 <p>Mr. Thomson Mary</p>
@@ -474,7 +649,7 @@ export default function Home() {
               </div>
 
             </div> */}
-            {/* <div className="col-md-3 ">
+          {/* <div className="col-md-3 ">
               <div className="text-center team-card bg-white rounded-4 p-3">
                 <Image src='/pics/11696670.png' alt="" width={100} height={100} className="rounded-pill" />
                 <p>Mr. Thomson Mary</p>
@@ -482,18 +657,18 @@ export default function Home() {
               </div>
 
             </div> */}
-          </div>
         </div>
-      </section>
+      </div>
+      </ >
 
 
-      {/* get in touch */}
-      <section className="contact-us" id="contact" data-aos="fade-up">
-        <Contact />
-      </section>
+    {/* get in touch */ }
+    < section className = "contact-us" id = "contact" data - aos="fade-up" >
+      <Contact />
+      </ >
 
       <Testimonial />
       <Footer />
-    </main>
+    </main >
   );
 }
