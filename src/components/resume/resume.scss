@@ -1,0 +1,138 @@
+
+$primary-color:#E62E2D;
+$light-color:#F2ECFF;
+$secondary-colors:#6369DC;
+$accent-color:#654D8E;
+$dark-color:#2F4858;
+  .resume{
+    max-width: 1200px;
+    margin: 150px auto;
+  }
+  .resume h2{
+   text-align: center;
+    margin-bottom: 30px;
+}
+  
+  .resume .container{
+    display: flex;
+    max-height: 700px;
+  }
+  
+  @media(max-width:600px){
+    .resume .container{
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  
+  .resume .resume-nav{
+  position: relative;
+  z-index: 1;
+  flex: 1;
+
+ 
+  }
+  
+  .resume .resume-content{
+  position: relative;
+  padding: 5px;
+  max-height: 450px;
+  flex: 3;
+  overflow: auto;
+
+ul{
+  li{
+    position: relative;
+    span{
+      svg{
+        z-index: 10;
+      position: relative;
+      }
+    }
+   
+
+      &:not(:last-child)::after {
+      content: ' ';
+      position: absolute;
+      width: 2px;
+      height: 100%;
+      background-color: rgb(54, 43, 43);
+      bottom: -10px;
+      z-index: -10;
+      left: 6px;
+    }
+  }
+}
+  
+  }
+  .resume-content::-webkit-scrollbar{
+    width: 7px;
+  }
+  .resume-content::-webkit-scrollbar-thumb{
+    background-color: $primary-color;
+    border-radius: 5px;
+  }
+  .resume-content::-webkit-scrollbar-track{
+    background-color: rgb(202, 202, 209);
+    border-radius: 5px;
+  }
+  
+  
+  
+  .resume-content>div{
+   box-shadow: 1px 1px 5px 0px $primary-color;
+//    box-shadow: 1px 1px 5px 0px red;
+   min-height: 440px;  
+   margin-bottom: 10px;
+   border-radius: 9px;
+   padding: 20px;
+ 
+  }
+
+  .resume .resume-nav::after {
+    content: '';
+    background-color: $primary-color;
+    z-index: -10;
+    position: absolute;
+    width: 52px;
+    height: 100%;
+    top: 0;
+    }
+    
+    .navRef{
+      display: flex;
+      margin-bottom: 30px;
+      /* height: 40px; */
+      padding:  15px ;
+      font-size: 16px;
+      background: transparent;
+      border: none;
+      align-items: center;
+      cursor: pointer;
+      gap: 30px;
+      width: 100%;
+      position: relative;
+      z-index: 1;
+    
+    }
+    .navRef .fill{
+      width: 0%;
+      height: 100%;
+      position: absolute;
+      z-index: -1;
+      left: 0;
+      background-color: $primary-color;
+    border-radius: 50px;
+    transition: .5s ease-in-out;
+    }
+     .navRef .active{
+      width: 100%;
+      background-color: $primary-color;
+    
+    }
+    .title p{
+    text-align: center;
+    margin: 20px 0;
+    color: $primary-color;
+    }
+    

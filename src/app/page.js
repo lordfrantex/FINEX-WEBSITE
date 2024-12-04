@@ -10,6 +10,7 @@ import Footer from "@/components/footer/Footer";
 import Testimonial from "@/components/testimonial/Testimonial";
 import Contact from "@/components/contact/Contact";
 import SportSwiper from "@/components/swiper/SportSwiper";
+import Resume from "@/components/resume/Resume";
 const yellowtail = Yellowtail({ subsets: ['latin'], weight: '400', display: 'swap' })
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
       {/* About us Section */}
       <section className="about" id="about-us" data-aos="fade-up">
         <div className="container py-5">
-          <div className="row align-items-center">
+          <div className="row align-items-centerc">
             <div className="col-12 col-md-6">
               <div className="image">
                 <div className="">
@@ -42,7 +43,9 @@ export default function Home() {
                 <div>
                   {/* <h3>About Us</h3> */}
                   <h2 className={`${yellowtail.className} fw-bold about-uss title-color`} data-aos="fade-up">About Us</h2>
-                  <p data-aos="fade-up">We are a new and developing wellness, market research, strategy and consulting company with knowledge to build the skills required to navigate growing level of healthcare data. We liaise with healthcare facilities to solve their staffing needs. Here are some of the benefits of our healthcare analysis:</p>
+                  <p>At Finex Healthcare, we abide by a risk compliance policy. We strictly follow leading industry established guidelines and procedures designed to identify, assess, and mitigate potential risks while ensuring adherence to relevant laws and regulations; essentially, we manage risks to remain compliant with industry standards. We structure our business and aim to align our business objectives with legal and ethical standards by proactively identifying, assessing, and mitigating potential risks. We adhere and comply to relevant regulations such as Health Insurance Portability and Accountability Act, Payment Card Industry Data Security Standard, and General Data Protection Regulation (HIPAA, PCI DSS, GDPR) through established policies and procedures, essentially acting as a safeguard against potential legal, financial, and reputational damages
+                    by maintaining a holistic view of organizational operations and decision-making across different departments. </p>
+                  {/* <p data-aos="fade-up">We are a new and developing wellness, market research, strategy and consulting company with knowledge to build the skills required to navigate growing level of healthcare data. We liaise with healthcare facilities to solve their staffing needs. Here are some of the benefits of our healthcare analysis:</p> */}
                 </div>
                 <div className="d-sm-flex d-block gap-5">
 
@@ -73,6 +76,80 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <section className="risk">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-lg-6">
+                <div className="">
+                  <h3>Finex Healthcare Analytics and Informatics compliance Risk Assessment</h3>
+                  <p>
+                    High-quality healthcare helps prevent diseases and improve quality of life. Healthy People 2030 focus on improving healthcare quality and making sure all people get the health care services they need. In healthcare, risk, compliance, and regulations significantly impact the quality and safety of resident care by ensuring healthcare providers adhere to legal standards, protecting patient privacy, and minimizing potential legal and financial consequences for non-compliance.
+                    Finex Healthcare ultimately aims to deliver high-quality care while mitigating risks like data breaches and medical errors; essentially, following regulations helps Finex healthcare avoid penalties, maintain patient trust, and operate ethically.
+                  </p>
+                </div>
+              </div>
+              <div className="col-12 col-lg-6">
+                <div className="d-flex">
+                  <Image src='/pics/tour-pics/risk4.png' className="ms-auto risk-pics" alt="" width={500} height={400} />
+                </div>
+              </div>
+            </div>
+            <div className="row g-4  risk-assessment">
+              <div className="col-12 col-md-4">
+                <div className=" shadow p-3 py-5 rounded-4">
+                  <FaCircleCheck />
+                  <h4>Patient Safety</h4>
+                  <p> By enforcing standards for medical practices and procedures, regulations contribute to improved patient safety and quality of care.</p>
+                </div>
+              </div>
+              <div className="col-12 col-md-4">
+                <div className="shadow p-3 py-5 rounded-4">
+                  <FaCircleCheck />
+                  <h4>Data Privacy</h4>
+                  <p>
+                    Regulations like HIPAA protect sensitive patient health information by dictating how medical data can be stored, accessed, and shared, preventing data breaches.
+                  </p>
+                </div>
+              </div>
+              <div className="col-12 col-md-4">
+                <div className="shadow p-3 py-5 rounded-4">
+                  <FaCircleCheck />
+                  <h4>Financial Implications</h4>
+                  <p> Non-compliance with regulations can result in heavy fines, legal actions, and reputational damage, impacting a healthcare organization's financial stability. </p>
+                </div>
+              </div>
+              <div className="col-12 col-md-4">
+                <div className="shadow p-3 py-5 rounded-4">
+                  <FaCircleCheck />
+                  <h4>Risk Management</h4>
+                  <p>
+                    Healthcare organizations must constantly assess potential risks associated with their practices and implement measures to mitigate them, including training staff on compliance protocols.
+                  </p>
+
+                </div>
+              </div>
+              <div className="col-12 col-md-4">
+                <div className="shadow p-3 py-5 rounded-4">
+                  <FaCircleCheck />
+                  <h4>Ethical Conduct</h4>
+                  <p>
+                    Compliance ensures healthcare providers operate within ethical boundaries, avoiding practices like kickbacks or unnecessary procedures.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="mt-5">
+              <h4>Examples of healthcare regulations and their impact</h4>
+              <ul>
+                <li>HIPAA (Health Insurance Portability and Accountability Act): Protects patient medical information privacy.</li>
+                <li>False Claims Act: Prohibits submitting fraudulent claims to government healthcare programs</li>
+                <li>Patient Safety and Quality Improvement Act: Encourages healthcare organizations </li>
+              </ul>
+
+
+            </div>
+          </div>
+        </section>
 
         <section className="container py-5 data-driven" data-aos="zoom-in">
           <div className="col-12 col-md-8 mx-auto fst-italic">
@@ -176,6 +253,29 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="meetCeo">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-12 col-lg-6">
+                <div className="image d-flex">
+                  <Image src='/pics/tour-pics/man3.jpg' alt="" className="" width={400} height={400} />
+                  <div className="ceoTitle">
+                    <span className="fw-bold">Chris Anazia</span><br />
+                    <span className=""> GRC Analyst and Consultant</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-lg-6">
+                <div className="">
+                  <h4>Meet Our C.E.O</h4>
+                  <hr />
+                  <p>I am a goal-oriented professional with over 10 years’ experience in governance, risk and compliance (GRC). I provide strategic guidance and translate information security into business terms. I have a requisite and vast knowledge of regulatory framework and have displayed total commitment in upholding the highest standards of integrity and efficiency. Throughout my entire career, I have demonstrated total dedication leading to a safe and compliant environment while ensuring that both my team and organization which I serve exceed expectation to achieve the perceived impossible. I am always keen to contribute and share my proficiency with a vibrant team and collaborate on innovative solutions to rapidly evolving complex compliance scenarios </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="sport-engagement">
           <div className="container my-5">
 
@@ -242,8 +342,9 @@ export default function Home() {
             <p className="text-center">
               <span className="quote-up   d-none d-md-block"><Image src="/pics/quote.png" className="" height={40} width={40} alt="" /></span>
               <span className="quote-down d-none d-md-block"><Image src="/pics/quote.png" className="" height={40} width={40} alt="" /></span>
-              Finex Healthcare Analytics was formed and owned by a seasoned social change engineer Chris Anazia in March 2022. He holds a B.sc degree in Mathematics, Economics and M.sc degree in Applied Economics. He is passionate about health economics and public health and how to apply digital technology to improve healthcare delivery worldwide.
-              The business was approved by the office of the Secretary of State of California on March 17th, 2022.
+              {/* Finex Healthcare Analytics was formed and owned by a seasoned social change engineer Chris Anazia in March 2022. He holds a B.sc degree in Mathematics, Economics and M.sc degree in Applied Economics. He is passionate about health economics and public health and how to apply digital technology to improve healthcare delivery worldwide.
+              The business was approved by the office of the Secretary of State of California on March 17th, 2022. */}
+              Finex Healthcare Analytics and Informatics Consult was established by a seasoned social change engineer who is passionate about health economics and public health and how to apply digital technology to improve healthcare delivery worldwide. The business was approved by the office of the Secretary of State of California on March 17th, 2022, and business operations commenced that same year.
             </p>
           </div>
         </section>
@@ -442,230 +543,44 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="resume" id="resume">
-        <div class="title">
-          <h2>My Resume</h2>
-        </div>
-        <div className="container">
-          <div class="resume-nav" id='navRefParent'>
-            <button class='navRef' data-target='education'> <i class="material-icons">school</i>
-              <span>Education</span> <span class='fill active'></span></button>
-            <button class='navRef' data-target='experience'><i class="material-icons">handshake</i>
-              <span>Experience</span> <span class='fill'></span></button>
-            <button class='navRef' data-target='qualification'> <i class="material-icons">verified</i>
-              <span>Certifications</span> <span class='fill'></span></button>
-            <button class='navRef' data-target='skills'>
-              <i class="material-icons">lightbulb</i>
-              <span>Skill Set</span> <span class='fill'></span></button>
 
 
+      {/* Team Section */}
+      <section className="team" id="team" data-aos="zoom-in" >
+        <div className="container ">
+          <div className="team-heading text-center">
+            <h3 className={`${yellowtail.className} fs-2 fw-bold`}>Our Team</h3>
+            <h2 className="fw-bold ">Meet Finex professional Team</h2>
           </div>
-
-          <div id="resume-content" class='resume-content' id='contentRef'>
-            <div class="content-item" id='education'>
-              <div class="education" id='education'>
-                <div class="">
-                  <span>
-                    <i class="fas fa-check-circle"></i>
-                  </span>
-                  <div class="school">
-                    <p>Federal University of Technology, Akure, Nigeria.</p>
-                    <p>Bachalor of Technology Cyber Security</p>
-                  </div>
-                  <div class="date">
-                    <p>2019-2024</p>
-                  </div>
-                </div>
-                <div class="">
-                  <span>
-                    <i class="fas fa-check-circle"></i>
-
-                  </span>
-                  <div class="school">
-                    <p>High School</p>
-                    <p>Federal Science and Technical College, Uromi, Nigeria.</p>
-                  </div>
-                  <div class="date">
-                    <p>2013-2019</p>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            <div class="content-item" id='experience'>
-              <div class="work" id='works'>
-                <div class="">
-                  <div class="">
-                    <h3> <i class="fas fa-check-circle" style="margin-right: 12px;"></i> Frontend
-                      Developer <span>(<a href="https://www.mohztec.com">mohztec.com</a>)</span></h3>
-                    <p style="color: #FD6F00;">Contract</p>
-
-                    <ul>
-                      <li> Implemented front-end frameworks such as ReactJS, NextJS and BootstrapCSS
-                        to create
-                        dynamic user interfaces.</li>
-                      <li> Worked closely with UI/UX and backend develpoers to integrate REST API and
-                        to deliver a pixel perefect figma design.</li>
-                      <li> Utilized React context API for state management for managing application
-                        data
-                        and state.</li>
-                      <li> Conducted thorough testing and debugging to ensure smooth functionality and
-                        user experience across different browsers and devices.
-                      </li>
-                    </ul>
-                  </p>
-                </div>
-
-                <div class="date">
-                  <p>2020-Present</p>
-                </div>
-              </div>
-
-
-              <div class="">
-                <div class="">
-                  <h3> <i class="fas fa-check-circle" style="margin-right: 12px;"></i> Frontend
-                    Developer <span>(<a
-                      href="https://www.finexhealth.com">finexhealth.com</a>)</span></h3>
-
-                  <p style="color: #FD6F00;">Contract</p>
-                  <ul>
-                    <li> Worked closely with the companies’ stakeholders ensuring an accurate
-                      translation of their companies needs into a software product, resulting in
-                      about 45% increase in productivity</li>
-                    <li>Built the entire frontend project with modern technologies such as HTML,
-                      React JS, Bootstrap CSS</li>
-                    <li> Utilized React context API for state management for managing application
-                      data
-                      and state.</li>
-                    <li> Conducted thorough testing and debugging to ensure smooth functionality and
-                      user experience across different browsers and devices.
-                    </li>
-                  </ul>
-                </p>
-              </div>
-
-              <div class="date">
-                <p>2023-Present</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="content-item" id='qualification'>
-          <div class="qualification">
-
-            <div class="">
-              <div class="">
-                <img src="./images/HNG Internship 11_Franklyn Kanebi _certificate-1.png" alt="">
-              </div>
-            </div>
-
-            <div class="">
-              <div class="">
-                <img src="./images/Coursera DCYN5DQ7A7GR-1.png" alt="">
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="content-item" id='skills'>
-          <div class="skills">
-            <div class="">
-              <h4>Technical Skills: </h4><br />
-              <div class="technical-skills">
-                <span>HTML5</span>
-                <span>CSS3</span>
-                <span>Tailwind css</span>
-                <span>Typescript</span>
-                <span>Nextjs</span>
-                <span>Shadcn UI</span>
-                <span>Reactjs</span>
-                <span>JavaScript</span>
-                <span>Scss/Sass</span>
-                <span>Bootstrap css</span>
-                <span>Redux Toolkit</span>
-                <span>REST API</span>
-                <span>Firebase</span>
-                <span>Git</span>
-                <span>Github</span>
-                <span>Prisma ORM</span>
-                <span>Expressjs</span>
-                <span>Nodejs</span>
-                <span>Git</span>
-                <span>Responsive design</span>
-              </div>
-            </div>
-            <div class="">
-              <h4>Soft Skills: </h4><br />
-              <div class="soft-skills">
-                <span>Communication</span>
-                <span>Teamwork</span>
-                <span>Critical Thinking</span>
-                <span>Creativity</span>
-                <span>Time Management</span>
-                <span>Problem Solving</span>
-                <span>Debugging</span>
-                <span>Adaptability</span>
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-      </section >
-
-    {/* Team Section */ }
-    < section className = "team" id = "team" data - aos="zoom-in" >
-      <div className="container ">
-        <div className="team-heading text-center">
-          <h3 className={`${yellowtail.className} fs-2 fw-bold`}>Our Team</h3>
-          <h2 className="fw-bold ">Meet Finex professional Team</h2>
-        </div>
-        <div className="row g-4 justify-content-center">
-          <div className="col-md-3 position-relative">
-            <div className="text-center team-card bg-white rounded-4 p-3">
-              <Image src='/pics/4086652.png' alt="" width={100} height={100} className="rounded-pill" />
-              <p>Mr. Chris Anazia</p>
-              <p>Founder/Manager</p>
-            </div>
-
-          </div>
-          <div className="col-md-3 ">
-            <div className="text-center team-card bg-white rounded-4 p-3">
-              <Image src='/pics/9967199.png' alt="" width={100} height={100} className="rounded-pill" />
-              <p>Mrs. Ijeoma Anazia</p>
-              <p>Managing partner</p>
-            </div>
-
-          </div>
-          {/* <div className="col-md-3 ">
+          <div className="row g-4 justify-content-center">
+            <div className="col-md-3 position-relative">
               <div className="text-center team-card bg-white rounded-4 p-3">
                 <Image src='/pics/4086652.png' alt="" width={100} height={100} className="rounded-pill" />
-                <p>Mr. Thomson Mary</p>
-                <p>Doctor</p>
+                <p>Mr. Chris Anazia</p>
+                <p>Founder/Manager</p>
               </div>
 
-            </div> */}
-          {/* <div className="col-md-3 ">
+            </div>
+            <div className="col-md-3 ">
               <div className="text-center team-card bg-white rounded-4 p-3">
-                <Image src='/pics/11696670.png' alt="" width={100} height={100} className="rounded-pill" />
-                <p>Mr. Thomson Mary</p>
-                <p>Doctor</p>
+                <Image src='/pics/9967199.png' alt="" width={100} height={100} className="rounded-pill" />
+                <p>Mrs. Ijeoma Anazia</p>
+                <p>Managing partner</p>
               </div>
 
-            </div> */}
+            </div>
+
+          </div>
         </div>
-      </div>
-      </ >
+      </section>
+
+      <Resume />
 
 
-    {/* get in touch */ }
-    < section className = "contact-us" id = "contact" data - aos="fade-up" >
-      <Contact />
-      </ >
+      {/* get in touch */}
+      <section className="contact-us" id="contact" data-aos="fade-up" >
+        <Contact />
+      </section >
 
       <Testimonial />
       <Footer />
