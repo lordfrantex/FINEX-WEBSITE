@@ -266,7 +266,7 @@ export default function Home() {
             <div className="row align-items-center">
               <div className="col-12 col-lg-6">
                 <div className="image d-flex">
-                  <Image src='/pics/tour-pics/man3.jpg' alt="" className="" width={400} height={400} />
+                  <Image src='/pics/tour-pics/ceo.jpg' alt="" className="" width={400} height={400} />
                   <div className="ceoTitle">
                     <span className="fw-bold">Chris Anazia</span><br />
                     <span className=""> GRC Analyst and Consultant</span>
@@ -275,7 +275,7 @@ export default function Home() {
               </div>
               <div className="col-12 col-lg-6">
                 <div className="">
-                  <h4>Meet Our C.E.O</h4>
+                  <h4 className="fw-bold">Meet Our C.E.O</h4>
                   <hr />
                   <p>I am a goal-oriented professional with over 10 years’ experience in governance, risk and compliance (GRC). I provide strategic guidance and translate information security into business terms. I have a requisite and vast knowledge of regulatory framework and have displayed total commitment in upholding the highest standards of integrity and efficiency. Throughout my entire career, I have demonstrated total dedication leading to a safe and compliant environment while ensuring that both my team and organization which I serve exceed expectation to achieve the perceived impossible. I am always keen to contribute and share my proficiency with a vibrant team and collaborate on innovative solutions to rapidly evolving complex compliance scenarios </p>
                 </div>
