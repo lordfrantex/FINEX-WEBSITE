@@ -131,7 +131,7 @@ const Resume = () => {
         },
         {
             title: 'Leadership',
-            position: ' Provided guidance for career growth to more than 20 regional heads and over 250 employees on risk assessment and mitigation.',
+            position: 'Provided guidance for career growth to more than 20 regional heads and over 250 employees on risk assessment and mitigation.',
         },
     ]
 
@@ -141,15 +141,16 @@ const Resume = () => {
                 <span>
                     <FaCircleCheck />
                 </span>
-                <div className="d-flex justify-content-between  w-100">
+                <div className="d-lg-flex justify-content-between w-100">
                     <div className="">
                         <p className="fw-bold">{data.title}</p>
                         <p>{data.position}</p>
-                        <hr />
+                        <hr className="d-none d-lg-block" />
                     </div>
-                    <div className="experience-date">
+                    <div className="experience-date ms-auto">
                         <span>{data.date}</span>
                     </div>
+                    <hr className="d-block d-lg-block" />
                 </div>
             </li>
         )
@@ -370,7 +371,7 @@ const Resume = () => {
 
                         <div className="highlights">
                             <h4 className="fw-bold">Professional Highlights</h4>
-                            <div className="row row-cols-3 g-2">
+                            <div className="row row-cols-1 row-cols-lg-3 g-2">
                                 <div className="col">
                                     <div className="">
                                         <p>Successful completion of retention projects, monitoring compliance and
@@ -422,16 +423,18 @@ const Resume = () => {
 
                             <div className=" mt-5">
                                 <h4 className="fw-bold">Roles and Responsibilities</h4>
-                                {mapRoles}
+                                <ul>
+                                    {mapRoles}
+                                </ul>
                             </div>
                         </div>
 
                     </div>
                     <div class="content-item" id='highlights'>
                         <div className="">
-                            {mapHighlights}
-
-
+                            <ul>
+                                {mapHighlights}
+                            </ul>
                         </div>
                     </div>
 
