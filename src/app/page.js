@@ -244,12 +244,12 @@ export default function Home() {
                     https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1216&context=gradreports&httpsredir=1&referer=
                   </Link>
                 </div>
-                <div className="d-flex mt-3 gap-2">
+                {/* <div className="d-flex mt-3 gap-2">
                   <FaCircleCheck />
                   <Link className="text-decoration-underline text-primary" href='https://theeagleonline.com.ng/new-winner-emerges-in-el-marino-alukimba-table-tennis-tournament/'>
                     https://theeagleonline.com.ng/new-winner-emerges-in-el-marino-alukimba-table-tennis-tournament/
                   </Link>
-                </div>
+                </div> */}
               </div>
               <div className="col-md-6 mt">
                 <div className="position-relative">
@@ -295,7 +295,7 @@ export default function Home() {
                   <p>The inaugural edition of Basil Offor Table Tennis Tournament, hosted by Finex
                     Healthcare in partnership with Elmarino Sport Club, was a tremendous success and a
                     delight to sports lovers.
-                    Held on Monday, September 16th, the event attracted a large and enthusiastic crowd of
+                    Held on Monday, September 16th 2024, the event attracted a large and enthusiastic crowd of
                     participants and spectators, celebrating both the spirit of competition and community.</p>
                   <p>
                     Sponsored by Chris Anazia, the tournament was a heartfelt tribute to the late Basil
@@ -336,6 +336,14 @@ export default function Home() {
                       Basil Offor Table Tennis Tournament, hosted by Finex Healthcare in... | Instagram
                     </Link>
                   </i>
+
+                  <p className="mt-4">
+                    <i>
+                      <Link className="text-decoration-underline text-primary" href='https://theeagleonline.com.ng/new-winner-emerges-in-el-marino-alukimba-table-tennis-tournament/'>
+                        https://theeagleonline.com.ng/new-winner-emerges-in-el-marino-alukimba-table-tennis-tournament/
+                      </Link>
+                    </i>
+                  </p>
                 </div>
               </div>
             </div>

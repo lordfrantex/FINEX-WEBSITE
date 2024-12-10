@@ -15,7 +15,7 @@ $dark-color:#2F4858;
   
   .resume .container{
     display: flex;
-    max-height: 700px;
+    // height: 700px;
   }
   
   @media(max-width:600px){
@@ -41,22 +41,22 @@ $dark-color:#2F4858;
   .resume .resume-content{
   position: relative;
   padding: 5px;
-  max-height: 450px;
+  max-height: 550px;
   flex: 3;
   overflow: auto;
 
 ul{
   li{
     position: relative;
+    z-index: 10;
     span{
       svg{
-        z-index: 10;
-      position: relative;
+        background-color: white;
       }
     }
    
 
-      &:not(:last-child)::after {
+      &:not(:last-child)::before {
       content: ' ';
       position: absolute;
       width: 2px;
@@ -87,7 +87,7 @@ ul{
   .resume-content>div{
    box-shadow: 1px 1px 5px 0px $primary-color;
 //    box-shadow: 1px 1px 5px 0px red;
-   min-height: 440px;  
+   min-height: 540px;  
    margin-bottom: 10px;
    border-radius: 9px;
    padding: 20px;
@@ -141,3 +141,58 @@ ul{
     color: $primary-color;
     }
     
+.qualification {
+  .competence-tags{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 7px;
+
+    span{
+      background-color: $primary-color;
+      color: white;
+      border-radius: 9px;
+      padding: 7px 10px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: .3s ease-in-out;
+
+      &:hover{
+        background-color: white;
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+.certifications{
+  .highlights{
+  
+    .col>div{
+      padding: 12px;
+      cursor: pointer;
+      border-radius: 9px;
+      font-size: 14px;
+      min-height: 150px;
+      box-shadow: 1px 1px 5px 0px #c1cfb7;
+      transition: .4s ease-in-out;
+      background-color: white;
+      &:hover{
+        outline: 1px solid $primary-color;
+      }
+    }
+  }
+}
+
+.experience{
+  .experience-date{
+    span{
+      background-color: $primary-color;
+      padding: 6px 10px;
+      color: white;
+      cursor: pointer;
+      border-radius: 9px;
+      font-size: 13px;
+
+    }
+  }
+}
