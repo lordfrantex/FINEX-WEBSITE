@@ -507,7 +507,7 @@ export default function Home() {
                 <div className="image">
                   <Image src='/pics/process_card_1.jpg' alt="" width={150} height={150} className="rounded-pill" />
                 </div>
-                <p className="fs-5 fw-bold">Patient Registration</p>
+                <p className="fs-5 fw-bold">Gathering/Sign up</p>
                 {/* <p>The first step in our process is to welcome our patients and ensure they have a experience.</p> */}
               </div>
             </div>
